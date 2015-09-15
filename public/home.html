@@ -8,19 +8,26 @@
         <link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap.min.css">
 
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/home.css">
 
         <title>UTT Arena 2015</title>
     </head>
 
     <body>
-        <main>
+        <main class="container-fluid">
             <div id="sidebar">
                 <h1>
                     <a href="">UTT Arena 2015</a>
                 </h1>
                 <ul>
                     <li>
-                        <a href="">Spotlights</a>
+                        <a href="spotlights/">Spotlights</a>
+                    </li>
+                    <li>
+                        <a href="chat/">Chat</a>
+                    </li>
+                    <li>
+                        <a href="tournaments/">Tournois</a>
                     </li>
                     <li>
                         <a href="challenges/">Challenges</a>
@@ -29,11 +36,37 @@
                         <a href="events/">Évènements</a>
                     </li>
                     <li>
-                        <a href="">Scores des équipes</a>
+                        <a href="stream/">Stream</a>
                     </li>
                 </ul>
             </div>
-            <div class="row" id="content"></div>
+            <div class="row" id="content">
+                <div class="col-xs-12">
+                    <div class="jumbotron">
+                        <h1>UTT Arena 2015</h1>
+                        <p>
+                            Bienvenue dans cette édition 2015 de l'UTT Arena. Vous êtes sur le site intranet.
+                            <br>
+                            Ce site sera l'outil indispensable d'un week-end de folie.
+                            <br>
+                            Sur la barre de navigation vous retrouverez les scores des spotlights, un chat, le
+                            générateur de tournois, les challenges et défis (équipe bleue/rouge), les évènements à venir
+                            dans le week-end, ainsi que le stream si vous n'avez pas la force d'aller jusqu'à la scène
+                            <br>
+                            <br>
+                            Listes des serveurs :
+                            <br>
+                            <kbd>http://intra.ua/</kbd> : ce site<br>
+                            <kbd>csgo1.ua</kbd> : serveur CSGO n°1 <small class="text-muted">(spotlight)</small><br>
+                            <kbd>csgo2.ua</kbd> : serveur CSGO n°2 <small class="text-muted">(spotlight)</small><br>
+                            <kbd>csgo3.ua</kbd> : serveur CSGO n°3<br>
+                            <kbd>mumble.ua</kbd> : serveur Mumble<br>
+                            <kbd>tf2.ua</kbd> : serveur TeamFortress 2<br>
+                            <kbd>trackmania.ua</kbd> : serveur Track Mania<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
         </main>
     </body>
 </html>

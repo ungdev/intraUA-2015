@@ -9,8 +9,16 @@ html, body, main {
     width: 100%;
 }
 
+main.container-fluid {
+    padding: 0;
+}
+
 #sidebar, #content {
     height: 100%;
+}
+
+#content {
+    padding: 20px 0;
 }
 
 /* Sidebar */
