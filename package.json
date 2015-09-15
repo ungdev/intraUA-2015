@@ -7,6 +7,8 @@
   "description": "UTT Arena 2015 Intranet",
   "license": "MIT",
   "dependencies": {
-    "hapi": "^10.0.0"
+    "hapi": "^10.0.0",
+    "inert": "^3.0.1",
+    "yar": "^4.2.0"
   }
 }
