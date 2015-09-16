@@ -43,12 +43,30 @@
             <div class="row" id="content">
                 <div class="col-xs-12">
                     <h1>Évènements</h1>
+                </div>
+                <div class="col-md-6">
                     <h2>Évènements en cours</h2>
+                    {{#eventsNow}}
+                        <h3 class="event now">
+                            {{name}}
+                            <span class="timer" data-start="{{start}}" data-end="{{end}}"></span>
+                        </h3>
+                    {{/eventsNow}}
+                </div>
+                <div class="col-md-6">
                     <h2>À venir</h2>
+                    {{#eventsToCome}}
+                        <h3 class="event toCome">
+                            {{name}}
+                            <span class="timer" data-start="{{start}}" data-end="{{end}}"></span>
+                        </h3>
+                    {{/eventsToCome}}
                 </div>
             </div>
         </main>
 
+        <script src="components/jquery/dist/jquery.min.js"></script>
+        <script src="components/countdown.js/lib/countdown.js"></script>
         <script src="js/events.js"></script>
     </body>
 </html>
