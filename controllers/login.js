@@ -11,7 +11,7 @@ module.exports = server => {
                 return reply.redirect('/home')
             }
 
-            reply.file('public/login.html')
+            reply.file('views/login.html')
         }
     })
 

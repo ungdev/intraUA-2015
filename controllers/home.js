@@ -9,7 +9,7 @@ module.exports = server => {
                 return reply.redirect('/')
             }
 
-            reply.file('public/home.html')
+            reply.file('views/home.html')
         }
     })
 }
