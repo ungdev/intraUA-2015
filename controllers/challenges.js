@@ -15,8 +15,12 @@ module.exports = server => {
                     return !challenge.validated
                 })
 
+            let scores = server.reloadDB().db('scores').toJSON()
+
             server.render(reply, 'challenges', {
-                challenges
+                challenges,
+                blue: scores.blue,
+                red : scores.red
             })
         }
     })

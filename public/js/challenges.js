@@ -1,6 +1,8 @@
 'use strict'
 
 let $submits = $('.btn')
+let $chart   = $('#chart')
+let ctx      = $chart.get(0).getContext('2d')
 
 $submits.click(function (e) {
     e.preventDefault()
@@ -26,4 +28,21 @@ $submits.click(function (e) {
         })
 
     return false
+})
+
+let myDoughnutChart = new Chart(ctx).Doughnut([
+    {
+        value    : $chart.data('blue'),
+        color    : '#4aa3df',
+        highlight: '#2980b9',
+        label    : 'Équipe bleue'
+    },
+    {
+        value    : $chart.data('red'),
+        color    : '#e74c3c',
+        highlight: '#c0392b',
+        label    : 'Équipe rouge'
+    }
+], {
+    animateRotate: false
 })

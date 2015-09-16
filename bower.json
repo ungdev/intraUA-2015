@@ -7,6 +7,7 @@
   "description": "UTT Arena 2015 Intranet",
   "license": "MIT",
   "dependencies": {
+    "Chart.js": "~1.0.2",
     "bootstrap": "~3.3.5",
     "countdown.js": "~1.1.0"
   }

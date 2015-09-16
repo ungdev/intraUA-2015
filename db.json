@@ -14,5 +14,9 @@
       "token": "tokentoken",
       "validated": true
     }
-  ]
+  ],
+  "scores": {
+    "blue": 56,
+    "red": 125
+  }
 }
