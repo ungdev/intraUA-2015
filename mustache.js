@@ -9,7 +9,7 @@ module.exports = (reply, filePath, data) => {
 
     fs.readFile(filePath, (err, fileContent) => {
         if (err) {
-            return reply(err).code(500)
+            return reply(err.message).code(500);
         }
 
         let rendered = mustache.render(fileContent.toString(), data)
