@@ -9,9 +9,13 @@ let low   = require('lowdb')
 
 let server = new hapi.Server()
 
-server.db     = low('db.json')
-server.config = require('./config.json')
-server.render = require('./mustache')
+server.db       = low('db.json')
+server.config   = require('./config.json')
+server.render   = require('./mustache')
+server.reloadDB = () => {
+    server.db = low('db.json')
+    return server
+};
 
 server.connection({ port: server.config.port })
 

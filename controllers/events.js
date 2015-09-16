@@ -11,7 +11,8 @@ module.exports = server => {
 
             let now = new Date()
 
-            let events = server.db('events').toJSON()
+            let events = server.reloadDB().db('events')
+                .toJSON()
                 .map(event => {
                     event.start = new Date(event.start)
                     event.end   = new Date(event.end)

@@ -16,7 +16,7 @@ $form.submit(e => {
                 pwd : $pwd.val()
             }
         })
-        .then(data => {
+        .then(function (data) {
             if (!data) {
                 $form.addClass('invalid')
                 return
