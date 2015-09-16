@@ -1,0 +1,13 @@
+{
+  "name": "intraua-2015",
+  "version": "1.0.0",
+  "authors": [
+    "Gabriel Juchault <gabriel.juchault@gmail.com>"
+  ],
+  "description": "UTT Arena 2015 Intranet",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "countdown.js": "~1.1.0"
+  }
+}
