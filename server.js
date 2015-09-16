@@ -40,6 +40,19 @@ let controllers = fs.readdirSync('controllers')
     .map(file => require(file))
     .forEach(controller => controller(server))
 
+console.log(server.table()[0])
+
+// Static serving
+server.route({
+    method : 'get',
+    path   : '/{param*}',
+    handler: {
+        directory: {
+            path: 'public'
+        }
+    }
+})
+
 server.start(() => {
     console.log('Server running at :', server.info.uri)
 })
