@@ -5,9 +5,13 @@ let path  = require('path')
 let hapi  = require('hapi')
 let inert = require('inert')
 let yar   = require('yar')
+let low   = require('lowdb')
 
 let server = new hapi.Server()
+
+server.db     = low('db.json')
 server.config = require('./config.json')
+server.render = require('./mustache')
 
 server.connection({ port: server.config.port })
 
@@ -39,8 +43,6 @@ let controllers = fs.readdirSync('controllers')
     .map(file => path.resolve('controllers', file))
     .map(file => require(file))
     .forEach(controller => controller(server))
-
-console.log(server.table()[0])
 
 // Static serving
 server.route({
