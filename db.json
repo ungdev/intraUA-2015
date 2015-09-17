@@ -15,6 +15,14 @@
       "validated": false
     }
   ],
+  "users": [
+    {
+      "login": "extaze",
+      "password": "$2a$10$WmMTTN27GMmxdn85vj3lQ./VHkpm3CGCB3pirmXhiI25BzPFfm69y",
+      "team": "blue",
+      "lastLogin": "2015-09-17T15:07:53.966Z"
+    }
+  ],
   "scores": {
     "blue": 56,
     "red": 125

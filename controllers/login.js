@@ -1,6 +1,6 @@
 'use strict'
 
-const authSuccess = true
+let bcrypt = require('bcryptjs')
 
 module.exports = server => {
     server.route({
@@ -19,17 +19,38 @@ module.exports = server => {
         method : 'post',
         path   : '/login',
         handler: (request, reply) => {
-            let user = request.payload.user
+            let login = request.payload.login
             let pwd  = request.payload.pwd
 
-            setTimeout(() => {
-                if (authSuccess) {
-                    request.session.set('auth', true)
-                }
-            })
+            if (!login || !pwd) {
+                return reply('Invalid input').code(400)
+            }
 
-            request.session.set({ auth: true })
-            return reply(authSuccess)
+            console.log(`Trying ${login}/${pwd}`)
+
+            let users = server.db('users')
+                .toJSON()
+                .filter(user => {
+                    return user.login === login
+                })
+
+            console.log(`${users.length} matches`)
+
+            if (users.length === 0) {
+                return reply(false)
+            }
+
+            bcrypt
+                .compare(pwd, users[0].password, function (err, res) {
+                    if (err || !res) {
+                        return reply(false)
+                    }
+
+                    users[0].lastLogin = new Date()
+                    server.db.save()
+                    request.session.set('auth', true)
+                    return reply(true)
+                })
         }
     })
 }

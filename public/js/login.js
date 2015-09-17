@@ -12,8 +12,8 @@ $form.submit(e => {
             url   : '/login',
             method: 'post',
             data  : {
-                user: $user.val(),
-                pwd : $pwd.val()
+                login: $user.val(),
+                pwd  : $pwd.val()
             }
         })
         .then(function (data) {
