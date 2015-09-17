@@ -12,7 +12,7 @@
       "desc": "Gagner 5 parties consécutives sur League Of Legends",
       "points": 50,
       "token": "tokentoken",
-      "validated": true
+      "validated": false
     }
   ],
   "scores": {

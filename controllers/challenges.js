@@ -35,11 +35,17 @@ module.exports = server => {
 
             let token = request.payload.token
             let index = request.payload.index
+            let team  = request.payload.team
+
             let challenges = server.reloadDB().db('challenges').toJSON()
 
-            if (!token || !index || !challenges[index]) {
+            if (!token || !index || !team || !challenges[index]) {
                 return reply('Invalid input').code(400)
             }
+
+            let amount = challenges[index].points
+
+            server.db('scores').toJSON()[team] += amount
 
             if (token === challenges[index].token) {
                 challenges[index].validated = true

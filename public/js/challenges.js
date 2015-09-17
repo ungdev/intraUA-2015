@@ -16,7 +16,8 @@ $submits.click(function (e) {
             url : '/challenges/submit',
             data: {
                 token: token,
-                index: $submits.index($(this))
+                index: $submits.index($(this)),
+                team : 'blue'
             }
         })
         .then(function (data) {
