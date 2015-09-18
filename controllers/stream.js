@@ -9,7 +9,9 @@ module.exports = server => {
                 return reply.redirect('/')
             }
 
-            reply.file('views/stream.html')
+            server.render(reply, 'stream', {
+                admin: request.session.get('admin')
+            })
         }
     })
 }

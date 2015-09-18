@@ -20,7 +20,132 @@
       "login": "extaze",
       "password": "$2a$10$WmMTTN27GMmxdn85vj3lQ./VHkpm3CGCB3pirmXhiI25BzPFfm69y",
       "team": "blue",
-      "lastLogin": "2015-09-17T15:07:53.966Z"
+      "lastLogin": "2015-09-18T12:22:25.027Z",
+      "admin": true
+    }
+  ],
+  "spotlights": [
+    {
+      "name": "League Of Legends",
+      "hasPools": true,
+      "pools": [
+        [
+          {
+            "name": "Team 1",
+            "score": 1
+          },
+          {
+            "name": "Team 2",
+            "score": 0
+          },
+          {
+            "name": "Team 3",
+            "score": 2
+          },
+          {
+            "name": "Team 4",
+            "score": 0
+          }
+        ]
+      ],
+      "hasTrees": true,
+      "tree": {
+        "teams": [
+          [
+            "Team 1",
+            "Team 2"
+          ],
+          [
+            "Team 3",
+            "Team 4"
+          ]
+        ],
+        "results": [
+          [
+            [
+              [
+                1,
+                2
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            [
+              [
+                5,
+                6
+              ],
+              [
+                7,
+                8
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "name": "Counter-Strike : Global Offensive",
+      "hasPools": true,
+      "pools": [
+        [
+          {
+            "name": "Team 1",
+            "score": 1
+          },
+          {
+            "name": "Team 2",
+            "score": 0
+          },
+          {
+            "name": "Team 3",
+            "score": 2
+          },
+          {
+            "name": "Team 4",
+            "score": 0
+          }
+        ]
+      ],
+      "hasTrees": true,
+      "tree": {
+        "teams": [
+          [
+            "Team 1",
+            "Team 2"
+          ],
+          [
+            "Team 3",
+            "Team 4"
+          ]
+        ],
+        "results": [
+          [
+            [
+              [
+                1,
+                2
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            [
+              [
+                5,
+                6
+              ],
+              [
+                7,
+                8
+              ]
+            ]
+          ]
+        ]
+      }
     }
   ],
   "scores": {

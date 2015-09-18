@@ -18,6 +18,7 @@ module.exports = server => {
             let scores = server.reloadDB().db('scores').toJSON()
 
             server.render(reply, 'challenges', {
+                admin: request.session.get('admin'),
                 challenges,
                 blue: scores.blue,
                 red : scores.red

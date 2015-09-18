@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap.min.css">
+
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/spotlights.css">
+
+        <title>UTT Arena 2015</title>
+    </head>
+
+    <body>
+        <main class="container-fluid">
+            <div id="sidebar">
+                <h1>
+                    <a href="/">UTT Arena 2015</a>
+                </h1>
+                <ul>
+                    <li class="active">
+                        <a href="spotlights">Spotlights</a>
+                    </li>
+                    <li>
+                        <a href="chat">Chat</a>
+                    </li>
+                    <li>
+                        <a href="tournaments">Tournois</a>
+                    </li>
+                    <li>
+                        <a href="challenges">Challenges</a>
+                    </li>
+                    <li>
+                        <a href="events">Évènements</a>
+                    </li>
+                    <li>
+                        <a href="stream">Stream</a>
+                    </li>
+                    {{#admin}}
+                        <li>
+                            <a href="admin">Administration</a>
+                        </li>
+                    {{/admin}}
+                </ul>
+            </div>
+            <div class="row" id="content">
+                <div class="col-xs-12">
+                    <h1>Spotlights</h1>
+                        <ul class="nav nav-pills">
+                            {{#spotlights}}
+                                {{#first}}
+                                    <li class="active">
+                                        <a>{{name}}</a>
+                                    </li>
+                                {{/first}}
+                                {{^first}}
+                                    <li>
+                                        <a>{{name}}</a>
+                                    </li>
+                                {{/first}}
+                            {{/spotlights}}
+                        </ul>
+                </div>
+                <div class="col-xs-12 pagesContainer">
+                    {{#spotlights}}
+                        {{#first}}
+                            <div class="page active">
+                        {{/first}}
+                        {{^first}}
+                            <div class="page">
+                        {{/first}}
+                        {{#hasPools}}
+                            <div class="row pools">
+                                {{#pools}}
+                                    <div class="col-xs-3">
+                                        <table class="table table-bordered table-hover table-condensed pool">
+                                            <thead>
+                                                <tr>
+                                                    <th colspan="2">Poule <span></span></th>
+                                                </tr>
+                                                <tr>
+                                                    <th>Équipe</th>
+                                                    <th>Score</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                {{#.}}
+                                                    <tr>
+                                                        <td>{{name}}</td>
+                                                        <td>{{score}}</td>
+                                                    </tr>
+                                                {{/.}}
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                {{/pools}}
+                            </div>
+                        {{/hasPools}}
+                        {{#hasTree}}
+                            <div class="row trees">
+                                {{#trees}}
+                                    <div class="tree" data-tree="{{data}}"></div>
+                                {{/trees}}
+                            </div>
+                        {{/hasTree}}
+                        </div>
+                    {{/spotlights}}
+                </div>
+            </div>
+        </main>
+
+        <script src="components/jquery/dist/jquery.min.js"></script>
+        <script src="components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="js/spotlights.js"></script>
+    </body>
+</html>

@@ -31,16 +31,6 @@ server.register({
     }
 }, () => {})
 
-// Cookies
-server.state('auth', {
-    ttl         : null,
-    isSecure    : false,
-    isHttpOnly  : true,
-    encoding    : 'base64json',
-    clearInvalid: false,
-    strictHeader: true
-})
-
 // Controllers
 let controllers = fs.readdirSync('controllers')
     .filter(file => file.slice(-3) === '.js')

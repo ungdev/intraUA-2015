@@ -27,6 +27,7 @@ module.exports = server => {
             console.log(eventsNow)
 
             server.render(reply, 'events', {
+                admin: request.session.get('admin'),
                 eventsToCome,
                 eventsNow
             })

@@ -9,7 +9,9 @@ module.exports = server => {
                 return reply.redirect('/')
             }
 
-            reply.file('views/chat.html')
+            server.render(reply, 'chat', {
+                admin: request.session.get('admin')
+            })
         }
     })
 }

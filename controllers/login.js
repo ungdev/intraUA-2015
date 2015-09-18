@@ -49,6 +49,11 @@ module.exports = server => {
                     users[0].lastLogin = new Date()
                     server.db.save()
                     request.session.set('auth', true)
+
+                    if (users[0].admin) {
+                        request.session.set('admin', true)
+                    }
+
                     return reply(true)
                 })
         }
