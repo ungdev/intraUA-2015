@@ -16,11 +16,9 @@ module.exports = server => {
 
                     if (spotlight.hasPools) {
                         spotlight.pools = spotlight.pools
-                            // .map(pool => {
-                            //     // Mustache is logic less; can't iterate over arrays
-                            //     return { data: JSON.stringify(pool) }
-                            // })
                     }
+
+                    spotlight.tree = JSON.stringify(spotlight.tree)
 
                     return spotlight
                 })
