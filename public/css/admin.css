@@ -17,6 +17,7 @@
          -o-transition: box-shadow .28s ease, background-color .28s ease;
             transition: box-shadow .28s ease, background-color .28s ease;
     width: 50px;
+    z-index: 10;
 }
 
 .validButton:focus {
@@ -45,6 +46,7 @@
 
 .CodeMirror {
     height: auto;
+    font-size: 12px;
 }
 
 .cm-trailingspace {

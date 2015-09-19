@@ -20,132 +20,212 @@
       "login": "extaze",
       "password": "$2a$10$WmMTTN27GMmxdn85vj3lQ./VHkpm3CGCB3pirmXhiI25BzPFfm69y",
       "team": "blue",
-      "lastLogin": "2015-09-18T12:22:25.027Z",
+      "lastLogin": "2015-09-19T14:38:16.580Z",
       "admin": true
     }
   ],
   "spotlights": [
     {
       "name": "League Of Legends",
-      "hasPools": true,
+      "hasPools": "true",
       "pools": [
         [
           {
             "name": "Team 1",
-            "score": 1
+            "score": "1"
           },
           {
             "name": "Team 2",
-            "score": 0
+            "score": "0"
           },
           {
             "name": "Team 3",
-            "score": 2
+            "score": "2"
           },
           {
             "name": "Team 4",
-            "score": 0
+            "score": "0"
           }
         ]
       ],
-      "hasTrees": true,
-      "tree": {
-        "teams": [
-          [
-            "Team 1",
-            "Team 2"
-          ],
-          [
-            "Team 3",
-            "Team 4"
-          ]
+      "hasTree": "true",
+      "tree": [
+        [
+          {
+            "team1": "Team 1",
+            "team2": "Team 2",
+            "score1": "12",
+            "score2": "25"
+          },
+          {
+            "team1": "Team 3",
+            "team2": "Team 4",
+            "score1": "12",
+            "score2": "25"
+          },
+          {
+            "team1": "Team 5",
+            "team2": "Team 6",
+            "score1": "12",
+            "score2": "25"
+          },
+          {
+            "team1": "Team 7",
+            "team2": "Team 8",
+            "score1": "12",
+            "score2": "25"
+          },
+          {
+            "team1": "Team 9",
+            "team2": "Team 10",
+            "score1": "12",
+            "score2": "25"
+          },
+          {
+            "team1": "Team 11",
+            "team2": "Team 12",
+            "score1": "12",
+            "score2": "25"
+          },
+          {
+            "team1": "Team 13",
+            "team2": "Team 14",
+            "score1": "12",
+            "score2": "25"
+          },
+          {
+            "team1": "Team 15",
+            "team2": "Team 16",
+            "score1": "12",
+            "score2": "25"
+          }
         ],
-        "results": [
-          [
-            [
-              [
-                1,
-                2
-              ],
-              [
-                3,
-                4
-              ]
-            ],
-            [
-              [
-                5,
-                6
-              ],
-              [
-                7,
-                8
-              ]
-            ]
-          ]
+        [
+          {
+            "team1": "Team 1",
+            "team2": "Team 2",
+            "score1": "12",
+            "score2": "25"
+          },
+          {
+            "team1": "Team 3",
+            "team2": "Team 4",
+            "score1": "12",
+            "score2": "25"
+          },
+          {
+            "team1": "Team 5",
+            "team2": "Team 6",
+            "score1": "12",
+            "score2": "25"
+          },
+          {
+            "team1": "Team 7",
+            "team2": "Team 8",
+            "score1": "12",
+            "score2": "25"
+          }
+        ],
+        [
+          {
+            "team1": "Team 1",
+            "team2": "Team 2",
+            "score1": "12",
+            "score2": "25"
+          },
+          {
+            "team1": "Team 3",
+            "team2": "Team 4",
+            "score1": "12",
+            "score2": "25"
+          }
+        ],
+        [
+          {
+            "team1": "Team 3",
+            "team2": "Team 4",
+            "score1": "12",
+            "score2": "25"
+          }
         ]
-      }
+      ]
     },
     {
       "name": "Counter-Strike : Global Offensive",
-      "hasPools": true,
+      "hasPools": "true",
       "pools": [
         [
           {
             "name": "Team 1",
-            "score": 1
+            "score": "1"
           },
           {
             "name": "Team 2",
-            "score": 0
+            "score": "0"
           },
           {
             "name": "Team 3",
-            "score": 2
+            "score": "2"
           },
           {
             "name": "Team 4",
-            "score": 0
+            "score": "0"
           }
         ]
       ],
-      "hasTrees": true,
-      "tree": {
-        "teams": [
-          [
-            "Team 1",
-            "Team 2"
-          ],
-          [
-            "Team 3",
-            "Team 4"
-          ]
-        ],
-        "results": [
-          [
-            [
-              [
-                1,
-                2
-              ],
-              [
-                3,
-                4
-              ]
-            ],
-            [
-              [
-                5,
-                6
-              ],
-              [
-                7,
-                8
-              ]
-            ]
-          ]
+      "hasTree": "true",
+      "tree": [
+        [
+          {
+            "team1": "Team 1",
+            "team2": "Team 2",
+            "score1": "12",
+            "score2": "25"
+          },
+          {
+            "team1": "Team 3",
+            "team2": "Team 4",
+            "score1": "12",
+            "score2": "25"
+          },
+          {
+            "team1": "Team 5",
+            "team2": "Team 6",
+            "score1": "12",
+            "score2": "25"
+          },
+          {
+            "team1": "Team 7",
+            "team2": "Team 8",
+            "score1": "12",
+            "score2": "25"
+          },
+          {
+            "team1": "Team 9",
+            "team2": "Team 10",
+            "score1": "12",
+            "score2": "25"
+          },
+          {
+            "team1": "Team 11",
+            "team2": "Team 12",
+            "score1": "12",
+            "score2": "25"
+          },
+          {
+            "team1": "Team 13",
+            "team2": "Team 14",
+            "score1": "12",
+            "score2": "25"
+          },
+          {
+            "team1": "Team 15",
+            "team2": "Team 16",
+            "score1": "12",
+            "score2": "25"
+          }
         ]
-      }
+      ]
     }
   ],
   "scores": {

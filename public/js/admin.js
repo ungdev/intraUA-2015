@@ -1,5 +1,30 @@
 'use strict'
 
+// Separate spotlights
+let $spotlightsData = $('.spotlights.data')
+let spotlights      = $('.spotlights.data').data('spotlights')
+spotlights.forEach(function (spotlight, i) {
+    let $h2       = $('<h2>').text(spotlight.name)
+    let $button   = $('<button>')
+        .addClass('validButton')
+        .attr('data-target', 'spotlights')
+        .attr('data-full', JSON.stringify(spotlight))
+        .attr('data-i', i)
+        .text('✓')
+    let $textarea = $('<textarea>')
+        .addClass('form-control')
+        .attr('rows', 10)
+        .val(JSON.stringify({
+            pools: spotlight.pools,
+            tree : spotlight.tree
+        }, null, 4))
+
+    $spotlightsData.after($h2)
+    $h2.after($textarea)
+    $textarea.after($button)
+})
+
+// Savers
 let $buttons = $('.validButton')
 
 $buttons.click(function (e) {
@@ -13,12 +38,22 @@ $buttons.click(function (e) {
         $self.removeClass('invalid').addClass('valid')
     } catch (e) {
         $self.removeClass('valid').addClass('invalid')
-
-        console.log(e)
         return
     }
 
     let target = $self.data('target')
+
+    if (target === 'spotlights') {
+        let full = $self.data('full')
+        let i    = $self.data('i')
+
+        Object.keys(val).forEach(function (key) {
+            full[key] = val[key]
+        })
+
+        spotlights[i] = full
+        val = spotlights
+    }
 
     $
         .ajax({
@@ -38,8 +73,8 @@ $buttons.click(function (e) {
     return false
 })
 
-let $textareas = $('textarea')
 
+let $textareas = $('textarea')
 $textareas.each(function () {
     // Store editor in button (easier to get back)
     $(this).next().get(0).editor = CodeMirror.fromTextArea(this, {

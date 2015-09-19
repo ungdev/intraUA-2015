@@ -12,10 +12,10 @@ module.exports = server => {
             }
 
             server.render(reply, 'admin', {
-                events: JSON.stringify(server.db('events').toJSON(), null, 4).trim(),
-                challenges: JSON.stringify(server.db('challenges').toJSON(), null, 4).trim(),
-                users: JSON.stringify(server.db('users').toJSON(), null, 4).trim(),
-                spotlights: JSON.stringify(server.db('spotlights').toJSON(), null, 4).trim(),
+                events: JSON.stringify(server.reloadDB().db('events').toJSON(), null, 4).trim(),
+                challenges: JSON.stringify(server.reloadDB().db('challenges').toJSON(), null, 4).trim(),
+                users: JSON.stringify(server.reloadDB().db('users').toJSON(), null, 4).trim(),
+                spotlights: JSON.stringify(server.reloadDB().db('spotlights').toJSON()).trim(),
             })
         }
     })
