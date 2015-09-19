@@ -148,7 +148,63 @@
             "score2": "25"
           }
         ]
-      ]
+      ],
+      "looser": [
+        [
+          {
+            "team1": "Team 1",
+            "team2": "Team 2",
+            "score1": "12",
+            "score2": "25"
+          },
+          {
+            "team1": "Team 3",
+            "team2": "Team 4",
+            "score1": "12",
+            "score2": "25"
+          },
+          {
+            "team1": "Team 5",
+            "team2": "Team 6",
+            "score1": "12",
+            "score2": "25"
+          },
+          {
+            "team1": "Team 7",
+            "team2": "Team 8",
+            "score1": "12",
+            "score2": "25"
+          }
+        ],
+        [
+          {
+            "team1": "Team 5",
+            "team2": "Team 6",
+            "score1": "12",
+            "score2": "25"
+          },
+          {
+            "team1": "Team 7",
+            "team2": "Team 8",
+            "score1": "12",
+            "score2": "25"
+          }
+        ],
+        [
+          {
+            "team1": "Team 7",
+            "team2": "Team 8",
+            "score1": "12",
+            "score2": "25"
+          }
+        ]
+      ],
+      "finale": {
+        "team1": "Team 7",
+        "team2": "Team 8",
+        "score1": "12",
+        "score2": "25"
+      }
     },
     {
       "name": "Counter-Strike : Global Offensive",
@@ -224,8 +280,112 @@
             "score1": "12",
             "score2": "25"
           }
+        ],
+        [
+          {
+            "team1": "Team 1",
+            "team2": "Team 2",
+            "score1": "12",
+            "score2": "25"
+          },
+          {
+            "team1": "Team 3",
+            "team2": "Team 4",
+            "score1": "12",
+            "score2": "25"
+          },
+          {
+            "team1": "Team 5",
+            "team2": "Team 6",
+            "score1": "12",
+            "score2": "25"
+          },
+          {
+            "team1": "Team 7",
+            "team2": "Team 8",
+            "score1": "12",
+            "score2": "25"
+          }
+        ],
+        [
+          {
+            "team1": "Team 1",
+            "team2": "Team 2",
+            "score1": "12",
+            "score2": "25"
+          },
+          {
+            "team1": "Team 3",
+            "team2": "Team 4",
+            "score1": "12",
+            "score2": "25"
+          }
+        ],
+        [
+          {
+            "team1": "Team 3",
+            "team2": "Team 4",
+            "score1": "12",
+            "score2": "25"
+          }
         ]
-      ]
+      ],
+      "looser": [
+        [
+          {
+            "team1": "Team 1",
+            "team2": "Team 2",
+            "score1": "12",
+            "score2": "25"
+          },
+          {
+            "team1": "Team 3",
+            "team2": "Team 4",
+            "score1": "12",
+            "score2": "25"
+          },
+          {
+            "team1": "Team 5",
+            "team2": "Team 6",
+            "score1": "12",
+            "score2": "25"
+          },
+          {
+            "team1": "Team 7",
+            "team2": "Team 8",
+            "score1": "12",
+            "score2": "25"
+          }
+        ],
+        [
+          {
+            "team1": "Team 5",
+            "team2": "Team 6",
+            "score1": "12",
+            "score2": "25"
+          },
+          {
+            "team1": "Team 7",
+            "team2": "Team 8",
+            "score1": "12",
+            "score2": "25"
+          }
+        ],
+        [
+          {
+            "team1": "Team 7",
+            "team2": "Team 8",
+            "score1": "12",
+            "score2": "25"
+          }
+        ]
+      ],
+      "finale": {
+        "team1": "Team 7",
+        "team2": "Team 8",
+        "score1": "12",
+        "score2": "25"
+      }
     }
   ],
   "scores": {

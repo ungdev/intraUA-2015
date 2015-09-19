@@ -18,7 +18,8 @@ module.exports = server => {
                         spotlight.pools = spotlight.pools
                     }
 
-                    spotlight.tree = JSON.stringify(spotlight.tree)
+                    spotlight.tree   = JSON.stringify(spotlight.tree)
+                    spotlight.looser = JSON.stringify(spotlight.looser)
 
                     return spotlight
                 })

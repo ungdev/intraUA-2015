@@ -8,32 +8,16 @@
 }
 
 .page {
+    display: none;
     height: 100%;
-    opacity: 0;
     padding: 0 15px;
     position: relative;
-    -webkit-transition: opacity .28s ease;
-       -moz-transition: opacity .28s ease;
-         -o-transition: opacity .28s ease;
-            transition: opacity .28s ease;
     z-index: 1;
 }
 
 .page.active {
-    opacity: 1;
+    display: block;
     z-index: 2;
-}
-
-.page:nth-child(2) {
-    top: -100%;
-}
-
-.page:nth-child(3) {
-    top: -200%;
-}
-
-.page:nth-child(4) {
-    top: -300%;
 }
 
 /* Tournament */
@@ -98,3 +82,16 @@ li.game-bottom {
     border-top:1px solid #aaa;
 }
 
+/* Finale */
+.finale.title {
+    text-align: center;
+}
+
+.finale.team1 {
+    font-weight: bold;
+    text-align: right;
+}
+
+.finale.team2 {
+    font-weight: bold;
+}

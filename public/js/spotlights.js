@@ -32,6 +32,10 @@ $tree.each(function () {
 
     let $tournament = $('<div>').addClass('tournament')
 
+    if (treeData.length === 0) {
+        return
+    }
+
     treeData.forEach(function (round, roundNumber) {
         let $round  = $('<ul>').addClass('round').addClass(`round-${roundNumber + 1}`)
         let $spacer = $('<li>').addClass('spacer').html('&nbsp;')
