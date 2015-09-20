@@ -59,7 +59,7 @@ $tree.each(function () {
 
             if (match.score1 > match.score2) {
                 $top.addClass('winner')
-            } else {
+            } else if (match.score2 > match.score1) {
                 $bot.addClass('winner')
             }
 

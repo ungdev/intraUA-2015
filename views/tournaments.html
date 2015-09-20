@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap.min.css">
+
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/tournaments.css">
+
+        <title>UTT Arena 2015</title>
+    </head>
+
+    <body>
+        <main class="container-fluid">
+            <div id="sidebar">
+                <h1>
+                    <a href="/">UTT Arena 2015</a>
+                </h1>
+                <ul>
+                    <li>
+                        <a href="spotlights">Spotlights</a>
+                    </li>
+                    <li>
+                        <a href="chat">Chat</a>
+                    </li>
+                    <li class="active">
+                        <a href="tournaments">Tournois</a>
+                    </li>
+                    <li>
+                        <a href="challenges">Challenges</a>
+                    </li>
+                    <li>
+                        <a href="events">Évènements</a>
+                    </li>
+                    <li>
+                        <a href="stream">Stream</a>
+                    </li>
+                    {{#admin}}
+                        <li>
+                            <a href="admin">Administration</a>
+                        </li>
+                    {{/admin}}
+                </ul>
+            </div>
+            <div class="row" id="content">
+                <div class="col-xs-12">
+                    <h1>Tournois</h1>
+                    {{#tournaments}}
+                        <h3>
+                            <a href="/tournaments/{{id}}">{{name}}</a>
+                            <small>{{game}} - {{players}}p</small></h3>
+                        <h5>Organisé par {{organizer}} situé {{position}}</h5>
+                        {{#full}}
+                            <button class="btn btn-primary join" disabled data-id="{{id}}" data-login="{{login}}">Participer (plein) !</button>
+                        {{/full}}
+                        {{^full}}
+                            <button class="btn btn-primary join" data-id="{{id}}" data-login="{{login}}">Participer !</button>
+                        {{/full}}
+                    {{/tournaments}}
+                    {{^tournaments}}
+                        <p>Aucun tournoi pour le moment</p>
+                    {{/tournaments}}
+                    <p>
+                        <br>
+                        Tu peux aussi <a href="createTournament">créer ton propre tournoi !</a>
+                    </p>
+                </div>
+            </div>
+        </main>
+
+        <script src="components/jquery/dist/jquery.min.js"></script>
+        <script src="components/countdown.js/lib/countdown.js"></script>
+        <script src="js/tournaments.js"></script>
+    </body>
+</html>

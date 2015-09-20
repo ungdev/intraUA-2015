@@ -20,8 +20,11 @@
       "login": "extaze",
       "password": "$2a$10$WmMTTN27GMmxdn85vj3lQ./VHkpm3CGCB3pirmXhiI25BzPFfm69y",
       "team": "blue",
-      "lastLogin": "2015-09-19T14:38:16.580Z",
-      "admin": true
+      "lastLogin": "2015-09-20T10:09:43.062Z",
+      "admin": true,
+      "tree": [
+        []
+      ]
     }
   ],
   "spotlights": [
@@ -32,19 +35,19 @@
         [
           {
             "name": "Team 1",
-            "score": "1"
+            "score": 1
           },
           {
             "name": "Team 2",
-            "score": "0"
+            "score": 0
           },
           {
             "name": "Team 3",
-            "score": "2"
+            "score": 2
           },
           {
             "name": "Team 4",
-            "score": "0"
+            "score": 0
           }
         ]
       ],
@@ -54,98 +57,98 @@
           {
             "team1": "Team 1",
             "team2": "Team 2",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           },
           {
             "team1": "Team 3",
             "team2": "Team 4",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           },
           {
             "team1": "Team 5",
             "team2": "Team 6",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           },
           {
             "team1": "Team 7",
             "team2": "Team 8",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           },
           {
             "team1": "Team 9",
             "team2": "Team 10",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           },
           {
             "team1": "Team 11",
             "team2": "Team 12",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           },
           {
             "team1": "Team 13",
             "team2": "Team 14",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           },
           {
             "team1": "Team 15",
             "team2": "Team 16",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           }
         ],
         [
           {
             "team1": "Team 1",
             "team2": "Team 2",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           },
           {
             "team1": "Team 3",
             "team2": "Team 4",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           },
           {
             "team1": "Team 5",
             "team2": "Team 6",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           },
           {
             "team1": "Team 7",
             "team2": "Team 8",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           }
         ],
         [
           {
             "team1": "Team 1",
             "team2": "Team 2",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           },
           {
             "team1": "Team 3",
             "team2": "Team 4",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           }
         ],
         [
           {
             "team1": "Team 3",
             "team2": "Team 4",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           }
         ]
       ],
@@ -154,56 +157,56 @@
           {
             "team1": "Team 1",
             "team2": "Team 2",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           },
           {
             "team1": "Team 3",
             "team2": "Team 4",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           },
           {
             "team1": "Team 5",
             "team2": "Team 6",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           },
           {
             "team1": "Team 7",
             "team2": "Team 8",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           }
         ],
         [
           {
             "team1": "Team 5",
             "team2": "Team 6",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           },
           {
             "team1": "Team 7",
             "team2": "Team 8",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           }
         ],
         [
           {
             "team1": "Team 7",
             "team2": "Team 8",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           }
         ]
       ],
       "finale": {
         "team1": "Team 7",
         "team2": "Team 8",
-        "score1": "12",
-        "score2": "25"
+        "score1": 12,
+        "score2": 25
       }
     },
     {
@@ -213,19 +216,19 @@
         [
           {
             "name": "Team 1",
-            "score": "1"
+            "score": 1
           },
           {
             "name": "Team 2",
-            "score": "0"
+            "score": 0
           },
           {
             "name": "Team 3",
-            "score": "2"
+            "score": 2
           },
           {
             "name": "Team 4",
-            "score": "0"
+            "score": 0
           }
         ]
       ],
@@ -235,98 +238,98 @@
           {
             "team1": "Team 1",
             "team2": "Team 2",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           },
           {
             "team1": "Team 3",
             "team2": "Team 4",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           },
           {
             "team1": "Team 5",
             "team2": "Team 6",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           },
           {
             "team1": "Team 7",
             "team2": "Team 8",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           },
           {
             "team1": "Team 9",
             "team2": "Team 10",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           },
           {
             "team1": "Team 11",
             "team2": "Team 12",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           },
           {
             "team1": "Team 13",
             "team2": "Team 14",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           },
           {
             "team1": "Team 15",
             "team2": "Team 16",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           }
         ],
         [
           {
             "team1": "Team 1",
             "team2": "Team 2",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           },
           {
             "team1": "Team 3",
             "team2": "Team 4",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           },
           {
             "team1": "Team 5",
             "team2": "Team 6",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           },
           {
             "team1": "Team 7",
             "team2": "Team 8",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           }
         ],
         [
           {
             "team1": "Team 1",
             "team2": "Team 2",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           },
           {
             "team1": "Team 3",
             "team2": "Team 4",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           }
         ],
         [
           {
             "team1": "Team 3",
             "team2": "Team 4",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           }
         ]
       ],
@@ -335,57 +338,78 @@
           {
             "team1": "Team 1",
             "team2": "Team 2",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           },
           {
             "team1": "Team 3",
             "team2": "Team 4",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           },
           {
             "team1": "Team 5",
             "team2": "Team 6",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           },
           {
             "team1": "Team 7",
             "team2": "Team 8",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           }
         ],
         [
           {
             "team1": "Team 5",
             "team2": "Team 6",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           },
           {
             "team1": "Team 7",
             "team2": "Team 8",
-            "score1": "12",
-            "score2": "25"
+            "score1": 12,
+            "score2": 25
           }
         ],
         [
           {
             "team1": "Team 7",
             "team2": "Team 8",
-            "score1": "12",
-            "score2": "25"
+            "score1": 0,
+            "score2": 0
           }
         ]
       ],
       "finale": {
         "team1": "Team 7",
         "team2": "Team 8",
-        "score1": "12",
-        "score2": "25"
+        "score1": 12,
+        "score2": 25
       }
+    }
+  ],
+  "tournaments": [
+    {
+      "name": "Tournoi test",
+      "game": "Dota 2",
+      "organizer": "extaze",
+      "position": "Table 15 côté PIG",
+      "players": 16,
+      "registered": 2,
+      "id": 0,
+      "tree": [
+        [
+          {
+            "team1": "extaze",
+            "team2": null,
+            "score1": 0,
+            "score2": 0
+          }
+        ]
+      ]
     }
   ],
   "scores": {
