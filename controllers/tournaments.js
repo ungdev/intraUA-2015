@@ -1,6 +1,7 @@
 'use strict'
 
 module.exports = server => {
+    // Tournaments list
     server.route({
         method : 'get',
         path   : '/tournaments',
@@ -26,6 +27,39 @@ module.exports = server => {
         }
     })
 
+    // Tournament view
+    server.route({
+        method : 'get',
+        path   : '/tournaments/{id}',
+        handler: (request, reply) => {
+            if (!request.session.get('auth')) {
+                return reply.redirect('/')
+            }
+
+            let tournaments = server.reloadDB().db('tournaments').toJSON()
+
+            if (tournaments.length <= request.params.id) {
+                return reply.redirect('/tournaments')
+            }
+
+            let tree = tournaments[request.params.id].tree
+                .map(round => round.map(game => {
+                    game.team1 = (game.team1 === null) ? '(vide)': game.team1
+                    game.team2 = (game.team2 === null) ? '(vide)': game.team2
+
+                    return game
+                }))
+
+            server.render(reply, 'tournament', {
+                admin     : request.session.get('admin'),
+                login     : request.session.get('login'),
+                tournament: tournaments[request.params.id],
+                tree      : JSON.stringify(tree)
+            })
+        }
+    })
+
+    // Tournament creation
     server.route({
         method : 'get',
         path   : '/createTournament',
@@ -80,6 +114,7 @@ module.exports = server => {
         }
     })
 
+    // Tournament join
     server.route({
         method : 'post',
         path   : '/joinTournament/{id}',
