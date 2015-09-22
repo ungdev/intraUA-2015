@@ -12,10 +12,11 @@ if (isOwner) {
         let actualScore = $self.text()
         let newScore    = parseInt(window.prompt('Nouveau score ?', actualScore), 10)
 
-        let tournamentId = location.pathname.split('/').slice(-1)[0];
-        let isTop        = $self.parent().hasClass('game-top')
-        let gameIndex    = $self.parent().parent().index()
-        let roundIndex   = $self.parent().parent().parent().index()
+        let tournamentId  = location.pathname.split('/').slice(-1)[0];
+        let isTop         = $self.parent().hasClass('game-top')
+        let classToSearch = (isTop) ? '.game-top' : '.game-bottom'
+        let gameIndex     = $self.parent().parent().children(classToSearch).index($self.parent())
+        let roundIndex    = $self.parent().parent().parent().index()
 
         $
             .ajax({

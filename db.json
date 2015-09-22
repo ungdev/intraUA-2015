@@ -395,17 +395,23 @@
     {
       "name": "Tournoi test",
       "game": "Dota 2",
-      "organizer": "extaze",
+      "organizer": "extazxe",
       "position": "Table 15 côté PIG",
       "players": 16,
-      "registered": 2,
+      "registered": 5,
       "id": 0,
       "tree": [
         [
           {
             "team1": "extaze",
-            "team2": null,
-            "score1": "0",
+            "team2": "A",
+            "score1": 6,
+            "score2": 0
+          },
+          {
+            "team1": "B",
+            "team2": "C",
+            "score1": 5,
             "score2": 0
           }
         ]

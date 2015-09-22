@@ -56,9 +56,9 @@ module.exports = server => {
                 [p.gameIndex]
 
             if (p.isTop === 'true') {
-                game.score1 = p.newScore
+                game.score1 = parseInt(p.newScore, 10)
             } else {
-                game.score2 = p.newScore
+                game.score2 = parseInt(p.newScore, 10)
             }
 
             server.db.save()
