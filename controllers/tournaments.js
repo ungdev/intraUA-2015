@@ -27,6 +27,46 @@ module.exports = server => {
         }
     })
 
+    // Edit score
+    server.route({
+        method : 'post',
+        path   : '/editTournament',
+        handler: (request, reply) => {
+            if (!request.session.get('auth')) {
+                return reply.redirect('/')
+            }
+
+            let p = request.payload
+
+            if (!p.tournamentId || !p.gameIndex || !p.roundIndex || typeof p.newScore === 'undefined' ||
+                typeof p.isTop === 'undefined') {
+                return reply(false)
+            }
+
+            let tournament = server.reloadDB().db('tournaments').toJSON()[p.tournamentId]
+            let isOwner    = tournament.organizer === request.session.get('login')
+
+            if (!tournament || (!request.session.get('admin') && !isOwner)) {
+                return reply(false)
+            }
+
+            let game = tournament
+                .tree
+                [p.roundIndex]
+                [p.gameIndex]
+
+            if (p.isTop === 'true') {
+                game.score1 = p.newScore
+            } else {
+                game.score2 = p.newScore
+            }
+
+            server.db.save()
+
+            return reply(true)
+        }
+    })
+
     // Tournament view
     server.route({
         method : 'get',
@@ -54,7 +94,8 @@ module.exports = server => {
                 admin     : request.session.get('admin'),
                 login     : request.session.get('login'),
                 tournament: tournaments[request.params.id],
-                tree      : JSON.stringify(tree)
+                tree      : JSON.stringify(tree),
+                isOwner   : tournaments[request.params.id].organizer === request.session.get('login')
             })
         }
     })

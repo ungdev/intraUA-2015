@@ -1,3 +1,7 @@
 .tree {
     padding: 20px;
 }
+
+.tree[data-isOwner] .score {
+    cursor: pointer;
+}

@@ -20,7 +20,7 @@
       "login": "extaze",
       "password": "$2a$10$WmMTTN27GMmxdn85vj3lQ./VHkpm3CGCB3pirmXhiI25BzPFfm69y",
       "team": "blue",
-      "lastLogin": "2015-09-20T10:09:43.062Z",
+      "lastLogin": "2015-09-22T08:28:09.186Z",
       "admin": true,
       "tree": [
         []
@@ -405,7 +405,7 @@
           {
             "team1": "extaze",
             "team2": null,
-            "score1": 0,
+            "score1": "0",
             "score2": 0
           }
         ]

@@ -57,7 +57,17 @@
                         <strong>Nombre de participants :</strong> {{tournament.registered}}p<br>
                     </p>
                     <div class="row">
-                        <div class="tree" data-tree="{{tree}}"></div>
+                        {{#isOwner}}
+                            <div class="tree" data-tree="{{tree}}" data-isOwner></div>
+                        {{/isOwner}}
+                        {{^isOwner}}
+                            {{#admin}}
+                                <div class="tree" data-tree="{{tree}}" data-isOwner></div>
+                            {{/admin}}
+                            {{^admin}}
+                                <div class="tree" data-tree="{{tree}}"></div>
+                            {{/admin}}
+                        {{/isOwner}}
                     </div>
                 </div>
             </div>
