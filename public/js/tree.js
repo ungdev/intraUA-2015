@@ -14,15 +14,15 @@ $tree.each(function () {
     }
 
     treeData.forEach(function (round, roundNumber) {
-        let $round  = $('<ul>').addClass('round').addClass(`round-${roundNumber + 1}`)
+        let $round  = $('<ul>').addClass('round').addClass(`round-${roundNumber + 1}`).attr('data-round', roundNumber)
         let $spacer = $('<li>').addClass('spacer').html('&nbsp;')
 
         $round.append($spacer)
 
         round.forEach(function (match, matchNumber) {
-            let $top    = $('<li>').addClass('game').addClass('game-top')
+            let $top    = $('<li>').addClass('game').addClass('game-top').attr('data-game', matchNumber)
             let $mid    = $('<li>').addClass('game').addClass('game-spacer')
-            let $bot    = $('<li>').addClass('game').addClass('game-bottom')
+            let $bot    = $('<li>').addClass('game').addClass('game-bottom').attr('data-game', matchNumber)
             let $spacer = $('<li>').addClass('spacer')
 
             $top

@@ -405,14 +405,22 @@
           {
             "team1": "extaze",
             "team2": "A",
-            "score1": 6,
-            "score2": 0
+            "score1": 90,
+            "score2": 95
           },
           {
             "team1": "B",
             "team2": "C",
-            "score1": 5,
+            "score1": 4,
             "score2": 0
+          }
+        ],
+        [
+          {
+            "score1": 1,
+            "score2": 0,
+            "team1": "A",
+            "team2": "B"
           }
         ]
       ]
