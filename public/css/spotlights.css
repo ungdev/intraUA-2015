@@ -19,3 +19,7 @@
     display: block;
     z-index: 2;
 }
+
+[data-haspools="false"] {
+    display: none;
+}

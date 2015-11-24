@@ -42,6 +42,7 @@ module.exports = server => {
 
             bcrypt
                 .compare(pwd, users[0].password, function (err, res) {
+                    console.log('ERR', err, 'RES', res);
                     if (err || !res) {
                         return reply(false)
                     }

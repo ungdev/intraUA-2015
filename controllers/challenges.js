@@ -16,12 +16,24 @@ module.exports = server => {
                 })
 
             let scores = server.reloadDB().db('scores').toJSON()
+            let users  = server.reloadDB().db('users')
+                .toJSON()
+                .sort(function (a, b) {
+                    return a.score < b.score
+                })
+                .slice(0, 10)
+                .map(function (user) {
+                    user.isBlue = user.team === 'blue'
+
+                    return user
+                })
 
             server.render(reply, 'challenges', {
                 admin: request.session.get('admin'),
                 challenges,
                 blue: scores.blue,
-                red : scores.red
+                red : scores.red,
+                rank: users
             })
         }
     })
@@ -47,6 +59,15 @@ module.exports = server => {
             let amount = challenges[index].points
 
             server.db('scores').toJSON()[team] += amount
+            let users = server.db('users').toJSON();
+
+            users = users.map(function (user) {
+                if (user.login === request.session.get('login')) {
+                    user.score += amount
+                }
+
+                return user
+            })
 
             if (token === challenges[index].token) {
                 challenges[index].validated = true

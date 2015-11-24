@@ -11,8 +11,6 @@ $as.click(function (e) {
     let $self = $(this)
     $self.tab('show')
 
-    console.log($pages.eq(3))
-
     $pages.removeClass('active').eq($self.parent().index()).addClass('active')
 
     return false

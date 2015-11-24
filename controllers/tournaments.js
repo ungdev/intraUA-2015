@@ -55,6 +55,9 @@ module.exports = server => {
                 [p.roundIndex]
                 [p.gameIndex]
 
+            let willBeTeam1 = p.gameIndex % 2 === 0
+            console.log('GMAE INDEX ', willBeTeam1);
+
             if (p.isTop === 'true') {
                 game.score1 = parseInt(p.newScore, 10)
             } else {
@@ -70,11 +73,22 @@ module.exports = server => {
 
                 if (tournament.tree[roundNumber + 1]) {
                     // Already another round, update only the concerned game
-                    let otherGame = tournament.tree[roundNumber + 1][p.gameIndex / 2]
+                    let otherIndex = Math.floor(p.gameIndex / 2);
+                    let nextGame  = tournament.tree[roundNumber + 1][otherIndex]
                     if (game.score1 > game.score2) {
-                        otherGame.team1 = game.team1
+                        console.log('other game', nextGame);
+                        console.log('game', game);
+                        if (willBeTeam1) {
+                            nextGame.team1 = game.team1
+                        } else {
+                            nextGame.team2 = game.team1
+                        }
                     } else if (game.score2 > game.score1) {
-                        otherGame.team1 = game.team2
+                        if (willBeTeam1) {
+                            nextGame.team1 = game.team2
+                        } else {
+                            nextGame.team2 = game.team2
+                        }
                     }
                     return
                 }

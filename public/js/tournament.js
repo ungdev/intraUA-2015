@@ -11,6 +11,11 @@ if (isOwner) {
 
         let actualScore = $self.text()
         let newScore
+        if ($self.prev().attr('title') === '(vide)') {
+            window.alert('Impossible de modifier le score d\'une équipe inexistante');
+            return;
+        }
+
         do {
             newScore = parseInt(window.prompt('Nouveau score ?', actualScore), 10)
             if (window.isNaN(newScore)) {

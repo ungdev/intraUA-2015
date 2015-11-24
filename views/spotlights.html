@@ -72,33 +72,31 @@
                         {{^first}}
                             <div class="page">
                         {{/first}}
-                        {{#hasPools}}
-                            <div class="row pools">
-                                {{#pools}}
-                                    <div class="col-xs-3">
-                                        <table class="table table-bordered table-hover table-condensed pool">
-                                            <thead>
+                        <div class="row pools" data-haspools="{{hasPools}}">
+                            {{#pools}}
+                                <div class="col-xs-3">
+                                    <table class="table table-bordered table-hover table-condensed pool">
+                                        <thead>
+                                            <tr>
+                                                <th colspan="2">Poule <span></span></th>
+                                            </tr>
+                                            <tr>
+                                                <th>Équipe</th>
+                                                <th>Score</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {{#.}}
                                                 <tr>
-                                                    <th colspan="2">Poule <span></span></th>
+                                                    <td>{{name}}</td>
+                                                    <td>{{score}}</td>
                                                 </tr>
-                                                <tr>
-                                                    <th>Équipe</th>
-                                                    <th>Score</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                {{#.}}
-                                                    <tr>
-                                                        <td>{{name}}</td>
-                                                        <td>{{score}}</td>
-                                                    </tr>
-                                                {{/.}}
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                {{/pools}}
-                            </div>
-                        {{/hasPools}}
+                                            {{/.}}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            {{/pools}}
+                        </div>
                         {{#hasTree}}
                             <div class="row">
                                 <h3>Winner tree</h3>

@@ -59,6 +59,17 @@
                         <p><strong>Récompense : {{points}} points !</strong></p>
                         <button class="btn btn-primary">Réclamer la récompense !</button>
                     {{/challenges}}
+                    Rankings: <br>
+                    <ol>
+                    {{#rank}}
+                        {{#isBlue}}
+                            <li>{{login}} : {{score}} points. Équipe <span style="font-weight: bold; color: blue;">bleue</span></li>
+                        {{/isBlue}}
+                        {{^isBlue}}
+                            <li>{{login}} : {{score}} points. Équipe <span style="font-weight: bold; color: red;">rouge</span></li>
+                        {{/isBlue}}
+                    {{/rank}}
+                    </ol>
                     {{^challenges}}
                         <p>Plus de challenges disponibles ! Allez vous plaindre à l'équipe d'animation !</p>
                     {{/challenges}}
