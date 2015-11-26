@@ -7,3 +7,5 @@ cd intranet-2015
 npm install
 npm start
 ```
+
+Start http://localhost:8080/
