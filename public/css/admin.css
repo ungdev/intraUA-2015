@@ -49,9 +49,18 @@
     font-size: 12px;
 }
 
+.hasExample + .CodeMirror {
+    width: calc(100% - 400px);
+}
+
 .cm-trailingspace {
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAACCAYAAAB/qH1jAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QUXCToH00Y1UgAAACFJREFUCNdjPMDBUc/AwNDAAAFMTAwMDA0OP34wQgX/AQBYgwYEx4f9lQAAAABJRU5ErkJggg==);
     background-position: bottom left;
     background-repeat: repeat-x;
 }
 
+.CodeMirror + pre {
+    float: right;
+    margin-top: -140px;
+    width: 370px;
+}

@@ -49,13 +49,37 @@
                 <div class="col-xs-12">
                     <h1>Adminsitration</h1>
                     <h2>Évènements</h2>
-                    <textarea class="form-control" rows="10">{{events}}</textarea>
+                    <textarea class="form-control hasExample" rows="10">{{events}}</textarea>
+                    <pre class="example">
+    <code>{
+        "name": "Finale Streamée",
+        "start": "2015-11-19T16:30:00.007Z",
+        "end": "2015-11-19T18:30:00.007Z"
+    }</code></pre>
                     <button class="validButton" data-target="events">✓</button>
                     <h2>Challenges</h2>
-                    <textarea class="form-control" rows="10">{{challenges}}</textarea>
+                    <textarea class="form-control hasExample" rows="10">{{challenges}}</textarea>
+                    <pre class="example">
+    <code>{
+        "name": "Imba LoL",
+        "desc": "blabal",
+        "points": 50,
+        "token": "tokentoken",
+        "validated": true
+    }</code></pre>
                     <button class="validButton" data-target="challenges">✓</button>
                     <h2>Utilisateurs</h2>
-                    <textarea class="form-control" rows="10">{{users}}</textarea>
+                    <textarea class="form-control hasExample" rows="10">{{users}}</textarea>
+                    <pre class="example">
+    <code>{
+        "login": "extaze",
+        "password": "$2a$12$7Fd6R/X5VC3ZwlnMywoO7eA0Aq1X05HNKj8X2qIlonSVMqOgEDQ3G",
+        "team": "blue",
+        "score": 50,
+        "lastLogin": "2015-11-26T12:23:42.190Z",
+        "admin": true,
+        "tree": [[]]
+    }</code></pre>
                     <button class="validButton" data-target="users">✓</button>
                     <h2>Spotlights</h2>
                     <div class="spotlights data" data-spotlights="{{spotlights}}"></div>

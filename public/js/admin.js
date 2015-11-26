@@ -87,4 +87,9 @@ $textareas.each(function () {
         showTrailingSpace: true,
         lint             : true
     })
+
+    let height = $(this).next().height()
+
+    if ($(this).next().next().get(0).tagName === 'PRE')
+        $(this).next().next().css('marginTop', -1 * height + 'px')
 })
