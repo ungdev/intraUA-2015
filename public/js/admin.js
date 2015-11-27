@@ -77,7 +77,12 @@ $buttons.click(function (e) {
 var $textareas = $('textarea')
 $textareas.each(function () {
     // Store editor in button (easier to get back)
-    $(this).next().get(0).editor = CodeMirror.fromTextArea(this, {
+    var $next = $(this).next().get(0)
+    if ($next.tagName !== 'BUTTON') {
+        $next = $(this).next().next().get(0)
+    }
+
+    $next.editor = CodeMirror.fromTextArea(this, {
         mode             : 'application/json',
         gutters          : ['CodeMirror-lint-markers'],
         indentUnit       : 4,
