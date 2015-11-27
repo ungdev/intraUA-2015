@@ -20,6 +20,7 @@ module.exports = function (server) {
                     return event
                 })
 
+                console.log(events[1].start > now);
             var eventsToCome = events.filter(function (event) {
                 return event.start > now
             })

@@ -25,8 +25,10 @@ var toHHMMSS = function (secNum) {
 $events.each(function () {
     var $self = $(this)
     var $span = $self.children()
-    var to    = ($self.hasClass('now')) ? new Date($span.data('start')) : new Date($span.data('end'))
+    var to    = ($self.hasClass('now')) ? new Date($span.data('end')) : new Date($span.data('start'))
     var now   = new Date()
+
+    console.log(to, now, to - now);
 
     var count = Math.floor((to - now) / 1000)
     new Countdown(count, function (seconds) {
