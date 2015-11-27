@@ -9,7 +9,7 @@ module.exports = function (server) {
                 return reply.redirect('/')
             }
 
-            let spotlights = server.reloadDB().db('spotlights')
+            var spotlights = server.reloadDB().db('spotlights')
                 .toJSON()
                 .map(function (spotlight, i) {
                     spotlight.first = (i === 0)
