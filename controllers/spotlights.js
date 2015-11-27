@@ -26,7 +26,7 @@ module.exports = function (server) {
 
             server.render(reply, 'spotlights', {
                 admin: request.session.get('admin'),
-                spotlights
+                spotlights: spotlights
             })
         }
     })
