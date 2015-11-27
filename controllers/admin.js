@@ -32,9 +32,11 @@ module.exports = function (server) {
                 return reply(false)
             }
 
-            server.reloadDB().db(request.payload.target).assign(request.payload.val)
+            var db = server.reloadDB().db
 
-            server.db.save()
+            db.object[request.payload.target] = request.payload.val
+
+            db.save()
 
             return reply(true)
         }

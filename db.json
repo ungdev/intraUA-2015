@@ -4,11 +4,6 @@
       "name": "Finale Streamée",
       "start": "2015-11-19T16:30:00.007Z",
       "end": "2015-11-19T18:30:00.007Z"
-    },
-    {
-      "name": "test",
-      "start": "2015-11-27T16:30:00.007Z",
-      "end": "2015-11-27T18:30:00.007Z"
     }
   ],
   "challenges": [
@@ -26,7 +21,7 @@
       "password": "$2a$12$7Fd6R/X5VC3ZwlnMywoO7eA0Aq1X05HNKj8X2qIlonSVMqOgEDQ3G",
       "team": "blue",
       "score": 50,
-      "lastLogin": "2015-11-27T15:46:28.306Z",
+      "lastLogin": "2015-11-27T16:12:12.521Z",
       "admin": true,
       "tree": [
         []
