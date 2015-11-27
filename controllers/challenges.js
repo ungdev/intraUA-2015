@@ -30,7 +30,7 @@ module.exports = function (server) {
 
             server.render(reply, 'challenges', {
                 admin: request.session.get('admin'),
-                challenges,
+                challenges: challenges,
                 blue: scores.blue,
                 red : scores.red,
                 rank: users
