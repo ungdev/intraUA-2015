@@ -22,7 +22,7 @@ module.exports = function (server) {
             server.render(reply, 'tournaments', {
                 admin: request.session.get('admin'),
                 login: request.session.get('login'),
-                tournaments
+                tournaments: tournaments
             })
         }
     })
