@@ -1,6 +1,6 @@
 'use strict'
 
-var $tree = $('.tree')
+var $tree = $('.tree[data-tree]')
 
 // Tree builder
 $tree.each(function () {

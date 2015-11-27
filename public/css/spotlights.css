@@ -20,6 +20,24 @@
     z-index: 2;
 }
 
+.looser.tree .round-1 {
+    margin-right: 30px;
+}
+
 [data-haspools="false"] {
     display: none;
+}
+
+.label {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 2px;
+}
+
+.lose .label, .win .label {
+    color: #777;
+}
+
+.lose.highlightWinner .label, .win.highlightWinner .label {
+    color: #fff;
 }
