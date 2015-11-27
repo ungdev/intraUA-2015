@@ -1,12 +1,12 @@
 'use strict'
 
-let bcrypt = require('bcryptjs')
+var bcrypt = require('bcryptjs')
 
-module.exports = server => {
+module.exports = function (server) {
     server.route({
         method : 'get',
         path   : '/',
-        handler: (request, reply) => {
+        handler: function (request, reply) {
             if (request.session.get('auth') === true) {
                 return reply.redirect('/home')
             }
@@ -18,23 +18,23 @@ module.exports = server => {
     server.route({
         method : 'post',
         path   : '/login',
-        handler: (request, reply) => {
-            let login = request.payload.login
-            let pwd  = request.payload.pwd
+        handler: function (request, reply) {
+            var login = request.payload.login
+            var pwd  = request.payload.pwd
 
             if (!login || !pwd) {
                 return reply('Invalid input').code(400)
             }
 
-            console.log(`Trying ${login}/${pwd}`)
+            console.log('Trying ' + login + '/' + pwd)
 
-            let users = server.db('users')
+            var users = server.db('users')
                 .toJSON()
-                .filter(user => {
+                .filter(function (user) {
                     return user.login === login
                 })
 
-            console.log(`${users.length} matches`)
+            console.log(users.length + ' matches')
 
             if (users.length === 0) {
                 return reply(false)

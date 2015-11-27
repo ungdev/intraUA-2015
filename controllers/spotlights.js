@@ -1,17 +1,17 @@
 'use strict'
 
-module.exports = server => {
+module.exports = function (server) {
     server.route({
         method : 'get',
         path   : '/spotlights',
-        handler: (request, reply) => {
+        handler: function (request, reply) {
             if (!request.session.get('auth')) {
                 return reply.redirect('/')
             }
 
             let spotlights = server.reloadDB().db('spotlights')
                 .toJSON()
-                .map((spotlight, i) => {
+                .map(function (spotlight, i) {
                     spotlight.first = (i === 0)
 
                     if (spotlight.hasPools) {

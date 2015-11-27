@@ -1,12 +1,12 @@
 'use strict'
 
-const settingsAuthorized = ['events', 'challenges', 'users', 'spotlights']
+var settingsAuthorized = ['events', 'challenges', 'users', 'spotlights']
 
-module.exports = server => {
+module.exports = function (server) {
     server.route({
         method : 'get',
         path   : '/admin',
-        handler: (request, reply) => {
+        handler: function (request, reply) {
             if (!request.session.get('auth') || !request.session.get('admin')) {
                 return reply.redirect('/')
             }
@@ -23,7 +23,7 @@ module.exports = server => {
     server.route({
         method : 'post',
         path   : '/admin',
-        handler: (request, reply) => {
+        handler: function (request, reply) {
             if (!request.session.get('auth') || !request.session.get('admin')) {
                 return reply(false)
             }

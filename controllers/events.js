@@ -1,27 +1,31 @@
 'use strict'
 
-module.exports = server => {
+module.exports = function (server) {
     server.route({
         method : 'get',
         path   : '/events',
-        handler: (request, reply) => {
+        handler: function (request, reply) {
             if (!request.session.get('auth')) {
                 return reply.redirect('/')
             }
 
-            let now = new Date()
+            var now = new Date()
 
-            let events = server.reloadDB().db('events')
+            var events = server.reloadDB().db('events')
                 .toJSON()
-                .map(event => {
+                .map(function (event) {
                     event.start = new Date(event.start)
                     event.end   = new Date(event.end)
 
                     return event
                 })
 
-            let eventsToCome = events.filter(event => event.start > now)
-            let eventsNow    = events.filter(event => event.start <= now && now <= event.end)
+            var eventsToCome = events.filter(function (event) {
+                return event.start > now
+            })
+            var eventsNow    = events.filter(function (event) {
+                return event.start <= now && now <= event.end
+            })
 
             console.log(eventsToCome)
             console.log(eventsNow)

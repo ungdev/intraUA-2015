@@ -2,9 +2,9 @@
 
 /* globals flowplayer */
 
-const url      = 'ua_test'
-const provider = 'ua'
-const host     = 'caterino.ua'
+var url      = 'ua_test'
+var provider = 'ua'
+var host     = 'caterino.ua'
 
 flowplayer('player', 'http://releases.flowplayer.org/swf/flowplayer-3.2.18.swf', {
     clip: {
@@ -14,6 +14,6 @@ flowplayer('player', 'http://releases.flowplayer.org/swf/flowplayer-3.2.18.swf',
     },
     plugins: {
         url             : 'components/flowplayer/flowplayer.rtmp-3.2.13.swf',
-        netConnectionUrl: `rtmp://${host}/live/`
+        netConnectionUrl: 'rtmp://' + host + '/live/'
     }
 })

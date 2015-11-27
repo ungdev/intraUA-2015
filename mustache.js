@@ -1,18 +1,18 @@
 'use strict'
 
-let fs       = require('fs')
-let path     = require('path')
-let mustache = require('mustache')
+var fs       = require('fs')
+var path     = require('path')
+var mustache = require('mustache')
 
-module.exports = (reply, filePath, data) => {
-    filePath = path.resolve('views', `${filePath}.html`)
+module.exports = function (reply, filePath, data) {
+    filePath = path.resolve('views', filePath + '.html')
 
-    fs.readFile(filePath, (err, fileContent) => {
+    fs.readFile(filePath, function (err, fileContent) {
         if (err) {
             return reply(err.message).code(500);
         }
 
-        let rendered = mustache.render(fileContent.toString(), data)
+        var rendered = mustache.render(fileContent.toString(), data)
         return reply(rendered)
     })
 }

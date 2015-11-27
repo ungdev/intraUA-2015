@@ -1,22 +1,22 @@
 'use strict'
 
-module.exports = server => {
+module.exports = function (server) {
     server.route({
         method : 'get',
         path   : '/challenges',
-        handler: (request, reply) => {
+        handler: function (request, reply) {
             if (!request.session.get('auth')) {
                 return reply.redirect('/')
             }
 
-            let challenges = server.reloadDB().db('challenges')
+            var challenges = server.reloadDB().db('challenges')
                 .toJSON()
-                .filter(challenge => {
+                .filter(function (challenge) {
                     return !challenge.validated
                 })
 
-            let scores = server.reloadDB().db('scores').toJSON()
-            let users  = server.reloadDB().db('users')
+            var scores = server.reloadDB().db('scores').toJSON()
+            var users  = server.reloadDB().db('users')
                 .toJSON()
                 .sort(function (a, b) {
                     return a.score < b.score
@@ -41,25 +41,25 @@ module.exports = server => {
     server.route({
         method : 'post',
         path   : '/challenges/submit',
-        handler: (request, reply) => {
+        handler: function (request, reply) {
             if (!request.session.get('auth')) {
                 return reply.redirect('/')
             }
 
-            let token = request.payload.token
-            let index = request.payload.index
-            let team  = request.payload.team
+            var token = request.payload.token
+            var index = request.payload.index
+            var team  = request.payload.team
 
-            let challenges = server.reloadDB().db('challenges').toJSON()
+            var challenges = server.reloadDB().db('challenges').toJSON()
 
             if (!token || !index || !team || !challenges[index]) {
                 return reply('Invalid input').code(400)
             }
 
-            let amount = challenges[index].points
+            var amount = challenges[index].points
 
             server.db('scores').toJSON()[team] += amount
-            let users = server.db('users').toJSON();
+            var users = server.db('users').toJSON();
 
             users = users.map(function (user) {
                 if (user.login === request.session.get('login')) {

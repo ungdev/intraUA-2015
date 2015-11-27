@@ -1,10 +1,10 @@
 'use strict'
 
-let $form = $('form')
-let $user = $('input[type="text"]')
-let $pwd  = $('input[type="password"]')
+var $form = $('form')
+var $user = $('input[type="text"]')
+var $pwd  = $('input[type="password"]')
 
-$form.submit(e => {
+$form.submit(function (e) {
     e.preventDefault()
 
     $

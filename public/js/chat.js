@@ -1,11 +1,11 @@
 'use strict'
 
-const ircPath = 'http://utt.fr/';
+var ircPath = 'http://utt.fr/';
 
-let $iframe = $('<iframe>')
+var $iframe = $('<iframe>')
     .attr('frameborder', 0)
     .attr('src', ircPath)
 
-let $container = $('#content > div')
+var $container = $('#content > div')
 
 $container.append($iframe)

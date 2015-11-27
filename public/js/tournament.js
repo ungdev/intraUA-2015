@@ -1,16 +1,16 @@
 'use strict'
 
-let $isOwner = $('[data-isOwner]')
-let isOwner  = $isOwner.length === 1
+var $isOwner = $('[data-isOwner]')
+var isOwner  = $isOwner.length === 1
 
 if (isOwner) {
     $isOwner.find('.score').click(function (e) {
         e.preventDefault()
 
-        let $self = $(this)
+        var $self = $(this)
 
-        let actualScore = $self.text()
-        let newScore
+        var actualScore = $self.text()
+        var newScore
         if ($self.prev().attr('title') === '(vide)') {
             window.alert('Impossible de modifier le score d\'une équipe inexistante');
             return;
@@ -27,11 +27,11 @@ if (isOwner) {
             return;
         }
 
-        let tournamentId  = location.pathname.split('/').slice(-1)[0];
-        let isTop         = $self.parent().hasClass('game-top')
-        let classToSearch = (isTop) ? '.game-top' : '.game-bottom'
-        let gameIndex     = parseInt($self.parent().attr('data-game'), 10)
-        let roundIndex    = parseInt($self.parent().parent().attr('data-round'), 10)
+        var tournamentId  = location.pathname.split('/').slice(-1)[0];
+        var isTop         = $self.parent().hasClass('game-top')
+        var classToSearch = (isTop) ? '.game-top' : '.game-bottom'
+        var gameIndex     = parseInt($self.parent().attr('data-game'), 10)
+        var roundIndex    = parseInt($self.parent().parent().attr('data-round'), 10)
 
         $
             .ajax({

@@ -1,10 +1,10 @@
 'use strict'
 
-module.exports = server => {
+module.exports = function (server) {
     server.route({
         method : 'get',
         path   : '/chat',
-        handler: (request, reply) => {
+        handler: function (request, reply) {
             if (!request.session.get('auth')) {
                 return reply.redirect('/')
             }

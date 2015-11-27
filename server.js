@@ -1,18 +1,18 @@
 'use strict'
 
-let fs    = require('fs')
-let path  = require('path')
-let hapi  = require('hapi')
-let inert = require('inert')
-let yar   = require('yar')
-let low   = require('lowdb')
+var fs    = require('fs')
+var path  = require('path')
+var hapi  = require('hapi')
+var inert = require('inert')
+var yar   = require('yar')
+var low   = require('lowdb')
 
-let server = new hapi.Server()
+var server = new hapi.Server()
 
 server.db       = low('db.json')
 server.config   = require('./config.json')
 server.render   = require('./mustache')
-server.reloadDB = () => {
+server.reloadDB = function () {
     server.db = low('db.json')
     return server
 };
@@ -20,7 +20,7 @@ server.reloadDB = () => {
 server.connection({ port: server.config.port })
 
 // Register plugins
-server.register(inert, () => {})
+server.register(inert, function () {})
 server.register({
     register: yar,
     options: {
@@ -29,14 +29,14 @@ server.register({
             isSecure: false
         }
     }
-}, () => {})
+}, function () {})
 
 // Controllers
-let controllers = fs.readdirSync('controllers')
-    .filter(file => file.slice(-3) === '.js')
-    .map(file => path.resolve('controllers', file))
-    .map(file => require(file))
-    .forEach(controller => controller(server))
+var controllers = fs.readdirSync('controllers')
+    .filter(function (file) { return file.slice(-3) === '.js' })
+    .map(function (file) { return path.resolve('controllers', file) })
+    .map(function (file) { return require(file) })
+    .forEach(function (controller) { return controller(server) })
 
 // Static serving
 server.route({
@@ -49,6 +49,6 @@ server.route({
     }
 })
 
-server.start(() => {
+server.start(function () {
     console.log('Server running at :', server.info.uri)
 })

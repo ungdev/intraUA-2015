@@ -1,14 +1,14 @@
 'use strict'
 
-let $joins = $('.join')
+var $joins = $('.join')
 
 $joins.click(function (e) {
     e.preventDefault()
 
-    let $self = $(this)
-    let login = $self.data('login')
-    let id    = $self.data('id')
-    let nick  = window.prompt('Choix du nom (team/votre pseudo) :', login)
+    var $self = $(this)
+    var login = $self.data('login')
+    var id    = $self.data('id')
+    var nick  = window.prompt('Choix du nom (team/votre pseudo) :', login)
 
     if (!nick) {
         return

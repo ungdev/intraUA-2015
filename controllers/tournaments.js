@@ -1,18 +1,18 @@
 'use strict'
 
-module.exports = server => {
+module.exports = function (server) {
     // Tournaments list
     server.route({
         method : 'get',
         path   : '/tournaments',
-        handler: (request, reply) => {
+        handler: function (request, reply) {
             if (!request.session.get('auth')) {
                 return reply.redirect('/')
             }
 
-            let tournaments = server.reloadDB().db('tournaments')
+            var tournaments = server.reloadDB().db('tournaments')
                 .toJSON()
-                .map((tournament, i) => {
+                .map(function (tournament, i) {
                     tournament.id   = i
                     tournament.full = tournament.players === tournament.registered
 
@@ -31,32 +31,32 @@ module.exports = server => {
     server.route({
         method : 'post',
         path   : '/editTournament',
-        handler: (request, reply) => {
+        handler: function (request, reply) {
             if (!request.session.get('auth')) {
                 return reply.redirect('/')
             }
 
-            let p = request.payload
+            var p = request.payload
 
             if (!p.tournamentId || !p.gameIndex || !p.roundIndex || typeof p.newScore === 'undefined' ||
                 typeof p.isTop === 'undefined') {
                 return reply(false)
             }
 
-            let tournament = server.reloadDB().db('tournaments').toJSON()[p.tournamentId]
-            let isOwner    = tournament.organizer === request.session.get('login')
+            var tournament = server.reloadDB().db('tournaments').toJSON()[p.tournamentId]
+            var isOwner    = tournament.organizer === request.session.get('login')
 
             if (!tournament || (!request.session.get('admin') && !isOwner)) {
                 return reply(false)
             }
 
-            let game = tournament
+            var game = tournament
                 .tree
                 [p.roundIndex]
                 [p.gameIndex]
 
-            let willBeTeam1 = p.gameIndex % 2 === 0
-            console.log('GMAE INDEX ', willBeTeam1);
+            var willBeTeam1 = p.gameIndex % 2 === 0
+            console.log('GMAE INDEX ', willBeTeam1)
 
             if (p.isTop === 'true') {
                 game.score1 = parseInt(p.newScore, 10)
@@ -65,7 +65,7 @@ module.exports = server => {
             }
 
             // Create nexts rounds
-            tournament.tree.forEach((round, roundNumber) => {
+            tournament.tree.forEach(function (round, roundNumber) {
                 if (round.length === 1) {
                     console.log('pass round', round)
                     return
@@ -73,11 +73,11 @@ module.exports = server => {
 
                 if (tournament.tree[roundNumber + 1]) {
                     // Already another round, update only the concerned game
-                    let otherIndex = Math.floor(p.gameIndex / 2);
-                    let nextGame  = tournament.tree[roundNumber + 1][otherIndex]
+                    var otherIndex = Math.floor(p.gameIndex / 2)
+                    var nextGame  = tournament.tree[roundNumber + 1][otherIndex]
                     if (game.score1 > game.score2) {
-                        console.log('other game', nextGame);
-                        console.log('game', game);
+                        console.log('other game', nextGame)
+                        console.log('game', game)
                         if (willBeTeam1) {
                             nextGame.team1 = game.team1
                         } else {
@@ -93,10 +93,10 @@ module.exports = server => {
                     return
                 }
 
-                let newRound = []
+                var newRound = []
 
                 for (var i = 0; i < round.length; i += 2) {
-                    let newGame = {
+                    var newGame = {
                         score1: 0,
                         score2: 0
                     }
@@ -121,7 +121,7 @@ module.exports = server => {
                 }
 
                 tournament.tree.push(newRound)
-            });
+            })
 
             server.db.save()
 
@@ -133,24 +133,26 @@ module.exports = server => {
     server.route({
         method : 'get',
         path   : '/tournaments/{id}',
-        handler: (request, reply) => {
+        handler: function (request, reply) {
             if (!request.session.get('auth')) {
                 return reply.redirect('/')
             }
 
-            let tournaments = server.reloadDB().db('tournaments').toJSON()
+            var tournaments = server.reloadDB().db('tournaments').toJSON()
 
             if (tournaments.length <= request.params.id) {
                 return reply.redirect('/tournaments')
             }
 
-            let tree = tournaments[request.params.id].tree
-                .map(round => round.map(game => {
-                    game.team1 = (game.team1 === null) ? '(vide)': game.team1
-                    game.team2 = (game.team2 === null) ? '(vide)': game.team2
+            var tree = tournaments[request.params.id].tree
+                .map(function (round) {
+                    return round.map(function (game) {
+                        game.team1 = (game.team1 === null) ? '(vide)': game.team1
+                        game.team2 = (game.team2 === null) ? '(vide)': game.team2
 
-                    return game
-                }))
+                        return game
+                    })
+                })
 
             server.render(reply, 'tournament', {
                 admin     : request.session.get('admin'),
@@ -166,7 +168,7 @@ module.exports = server => {
     server.route({
         method : 'get',
         path   : '/createTournament',
-        handler: (request, reply) => {
+        handler: function (request, reply) {
             if (!request.session.get('auth')) {
                 return reply.redirect('/')
             }
@@ -181,12 +183,12 @@ module.exports = server => {
     server.route({
         method : 'post',
         path   : '/createTournament',
-        handler: (request, reply) => {
+        handler: function (request, reply) {
             if (!request.session.get('auth')) {
                 return reply.redirect('/')
             }
 
-            let tournaments = server.reloadDB().db('tournaments').toJSON()
+            var tournaments = server.reloadDB().db('tournaments').toJSON()
 
             console.log(request.payload)
 
@@ -210,10 +212,10 @@ module.exports = server => {
                 ]
             })
 
-            let id = tournaments.length - 1
+            var id = tournaments.length - 1
 
             server.db.save()
-            reply.redirect(`tournaments/${id}`)
+            reply.redirect('tournaments/' + id)
         }
     })
 
@@ -221,16 +223,16 @@ module.exports = server => {
     server.route({
         method : 'post',
         path   : '/joinTournament/{id}',
-        handler: (request, reply) => {
+        handler: function (request, reply) {
             if (!request.session.get('auth')) {
                 return reply.redirect('/')
             }
 
-            let id   = request.params.id
-            let nick = request.payload.nick
+            var id   = request.params.id
+            var nick = request.payload.nick
 
-            let tournaments = server.reloadDB().db('tournaments').toJSON()
-            let tournament = null
+            var tournaments = server.reloadDB().db('tournaments').toJSON()
+            var tournament = null
 
             if (tournaments.length > id && nick) {
                 tournament = tournaments[id]
@@ -244,7 +246,7 @@ module.exports = server => {
 
             ++tournament.registered
 
-            let lastFight = tournament.tree[0][tournament.tree[0].length - 1]
+            var lastFight = tournament.tree[0][tournament.tree[0].length - 1]
 
             if (lastFight.team2 === null) {
                 lastFight.team2 = nick

@@ -1,17 +1,17 @@
 'use strict'
 
 // Separate spotlights
-let $spotlightsData = $('.spotlights.data')
-let spotlights      = $('.spotlights.data').data('spotlights')
+var $spotlightsData = $('.spotlights.data')
+var spotlights      = $('.spotlights.data').data('spotlights')
 spotlights.forEach(function (spotlight, i) {
-    let $h2       = $('<h2>').text(spotlight.name)
-    let $button   = $('<button>')
+    var $h2       = $('<h2>').text(spotlight.name)
+    var $button   = $('<button>')
         .addClass('validButton')
         .attr('data-target', 'spotlights')
         .attr('data-full', JSON.stringify(spotlight))
         .attr('data-i', i)
         .text('✓')
-    let $textarea = $('<textarea>')
+    var $textarea = $('<textarea>')
         .addClass('form-control')
         .attr('rows', 10)
         .val(JSON.stringify({
@@ -25,13 +25,13 @@ spotlights.forEach(function (spotlight, i) {
 })
 
 // Savers
-let $buttons = $('.validButton')
+var $buttons = $('.validButton')
 
 $buttons.click(function (e) {
     e.preventDefault()
-    let $self = $(this)
+    var $self = $(this)
 
-    let val = $self.get(0).editor.getValue()
+    var val = $self.get(0).editor.getValue()
 
     try {
         val = JSON.parse(val)
@@ -41,11 +41,11 @@ $buttons.click(function (e) {
         return
     }
 
-    let target = $self.data('target')
+    var target = $self.data('target')
 
     if (target === 'spotlights') {
-        let full = $self.data('full')
-        let i    = $self.data('i')
+        var full = $self.data('full')
+        var i    = $self.data('i')
 
         Object.keys(val).forEach(function (key) {
             full[key] = val[key]
@@ -74,7 +74,7 @@ $buttons.click(function (e) {
 })
 
 
-let $textareas = $('textarea')
+var $textareas = $('textarea')
 $textareas.each(function () {
     // Store editor in button (easier to get back)
     $(this).next().get(0).editor = CodeMirror.fromTextArea(this, {
@@ -88,7 +88,7 @@ $textareas.each(function () {
         lint             : true
     })
 
-    let height = $(this).next().height()
+    var height = $(this).next().height()
 
     if ($(this).next().next().get(0).tagName === 'PRE')
         $(this).next().next().css('marginTop', -1 * height + 'px')
