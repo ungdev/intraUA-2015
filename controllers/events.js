@@ -32,8 +32,8 @@ module.exports = function (server) {
 
             server.render(reply, 'events', {
                 admin: request.session.get('admin'),
-                eventsToCome,
-                eventsNow
+                eventsToCome: eventsToCome,
+                eventsNow: eventsNow
             })
         }
     })
