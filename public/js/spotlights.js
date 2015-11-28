@@ -26,8 +26,25 @@ $pools.each(function () {
 $brackets.each(function () {
     var $bracket = $(this)
     var data     = JSON.parse($bracket.attr('data-bracket'))
+    var admin    = $bracket.attr('data-admin') === 'true'
+    var index    = $bracket.parent().parent().index()
 
-    console.log(data)
+    var save = admin ? function (data) {
+        console.log(data, index)
+        $.ajax({
+            type   : 'post',
+            url    : '/spotlights/' + index,
+            data   : data,
+            success: function (msg) {
+                console.log(msg)
+            }
+        })
+    } : undefined
 
-    $bracket.bracket({ init: data })
+    $bracket.bracket({
+        init: data,
+        save: save
+    })
+
+    $('.jQBracket.lr > .tools').remove()
 })

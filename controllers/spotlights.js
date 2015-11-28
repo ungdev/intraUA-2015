@@ -30,4 +30,25 @@ module.exports = function (server) {
             })
         }
     })
+
+    server.route({
+        method : 'post',
+        path   : '/spotlights/{index}',
+        handler: function (request, reply) {
+            if (!request.session.get('auth') ||
+                !request.session.get('admin')) {
+                return reply(false)
+            }
+
+            var db = server.reloadDB().db
+
+            console.log(request.params.index, request.payload)
+
+            db.object.spotlights[request.params.index].tree = request.payload
+
+            db.save()
+
+            return reply(true)
+        }
+    })
 }
