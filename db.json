@@ -1,16 +1,23 @@
 {
   "events": [
     {
-      "name": "Finale Streamée",
-      "start": "2015-11-30T16:30:00.007Z",
-      "end": "2015-11-30T18:30:00.007Z"
+      "name": "Test",
+      "start": "2015-12-04T15:30:00.000Z",
+      "end": "2015-12-04T16:30:00.000Z"
     }
   ],
   "challenges": [
     {
       "name": "Imba LoL",
-      "desc": "Gagner 5 parties consécutives sur League Of Legends",
+      "desc": "Gagner 5 parties consécutives sur League Of Legends (premier)",
       "points": 70,
+      "token": "tokentoken",
+      "validated": false
+    },
+    {
+      "name": "Imba LoL",
+      "desc": "Gagner 5 parties consécutives sur League Of Legends (deuxième)",
+      "points": 50,
       "token": "tokentoken",
       "validated": false
     }

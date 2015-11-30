@@ -32,11 +32,11 @@ module.exports = function (server) {
                 return reply(false)
             }
 
-            var db = server.reloadDB().db
+            var obj = JSON.parse(require('fs').readFileSync('db.json'))
 
-            db.object[request.payload.target] = request.payload.val
+            obj[request.payload.target] = request.payload.val
 
-            db.save()
+            require('fs').writeFileSync('db.json', JSON.stringify(obj, null, 4))
 
             return reply(true)
         }

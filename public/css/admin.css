@@ -1,3 +1,15 @@
+#generateEvent {
+    position: absolute;
+    right: 40px;
+    z-index: 10;
+}
+
+#generateChallenge {
+    position: absolute;
+    right: 180px;
+    z-index: 10;
+}
+
 .validButton {
     background-color: #66afe9;
     border-radius: 50%;

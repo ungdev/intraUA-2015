@@ -1,6 +1,8 @@
 'use strict'
 // Savers
-var $buttons = $('.validButton')
+var $buttons           = $('.validButton')
+var $generateEvent     = $('#generateEvent')
+var $generateChallenge = $('#generateChallenge')
 
 $buttons.click(function (e) {
     e.preventDefault()
@@ -74,4 +76,49 @@ $textareas.each(function () {
 
     if ($(this).next().next().get(0).tagName === 'PRE')
         $(this).next().next().css('marginTop', -1 * height + 'px')
+})
+
+$generateEvent.click(function (e) {
+    e.preventDefault()
+    var eName = prompt('Event name ?')
+
+    var sday    = prompt('[START] Day ?')
+    var shour   = prompt('[START] Hour ?')
+    var sminute = prompt('[START] Minute ?')
+
+    var eday    = prompt('[END] Day ?')
+    var ehour   = prompt('[END] Hour ?')
+    var eminute = prompt('[END] Minute ?')
+
+    var start = new Date(2015, 11, sday, shour, sminute, 0, 0)
+    var end   = new Date(2015, 11, eday, ehour, eminute, 0, 0)
+
+    var bracketStart = '    {'
+    var bracketEnd   = '"\n    },'
+    var nameStart    = '\n        "name": "'
+    var startStart   = '",\n        "start": "'
+    var endStart     = '",\n        "end": "'
+
+    prompt('Start result', bracketStart + nameStart + eName + startStart + start.toISOString() + endStart + end.toISOString() + bracketEnd)
+})
+
+$generateChallenge.click(function (e) {
+    e.preventDefault()
+
+    var random = Math.random().toString(36).replace(/[^a-z0-9]+/g, '').substr(0, 3);
+
+    var cName = prompt('Challenge name')
+    var cDesc = prompt('Challenge description')
+    var cPoints = prompt('Challenge points')
+    var cToken = prompt('Challenge token', random)
+
+    var bracketStart = '    {'
+    var bracketEnd   = '\n    },'
+    var nameStart    = '\n        "name": "'
+    var descStart    = '",\n        "desc": "'
+    var pointsStart  = '",\n        "points": "'
+    var tokenStart   = '",\n        "token": "'
+    var validated    = '",\n        "validated": false'
+
+    prompt('Challenge result', bracketStart + nameStart + cName + descStart + cDesc + pointsStart + cPoints + tokenStart + cToken + validated + bracketEnd)
 })
