@@ -1,29 +1,4 @@
 'use strict'
-
-// Separate spotlights
-var $spotlightsData = $('.spotlights.data')
-var spotlights      = $('.spotlights.data').data('spotlights')
-spotlights.forEach(function (spotlight, i) {
-    var $h2       = $('<h2>').text(spotlight.name)
-    var $button   = $('<button>')
-        .addClass('validButton')
-        .attr('data-target', 'spotlights')
-        .attr('data-full', JSON.stringify(spotlight))
-        .attr('data-i', i)
-        .text('✓')
-    var $textarea = $('<textarea>')
-        .addClass('form-control')
-        .attr('rows', 10)
-        .val(JSON.stringify({
-            pools: spotlight.pools,
-            tree : spotlight.tree
-        }, null, 4))
-
-    $spotlightsData.after($h2)
-    $h2.after($textarea)
-    $textarea.after($button)
-})
-
 // Savers
 var $buttons = $('.validButton')
 
@@ -59,10 +34,12 @@ $buttons.click(function (e) {
         .ajax({
             type: 'post',
             url : '/admin',
-            data: {
+            data: JSON.stringify({
                 target: target,
                 val   : val
-            }
+            }),
+            contentType: 'application/json; charset=utf-8',
+            dataType: 'json'
         })
         .then(function (data) {
             if (data) {

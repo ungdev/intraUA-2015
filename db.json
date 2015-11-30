@@ -10,9 +10,9 @@
     {
       "name": "Imba LoL",
       "desc": "Gagner 5 parties consécutives sur League Of Legends",
-      "points": 50,
+      "points": 70,
       "token": "tokentoken",
-      "validated": true
+      "validated": false
     }
   ],
   "users": [
