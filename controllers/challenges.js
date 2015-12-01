@@ -51,6 +51,9 @@ module.exports = function (server) {
             var team  = request.payload.team
 
             var challenges = server.reloadDB().db('challenges').toJSON()
+                .filter(function (challenge) {
+                    return !challenge.validated
+                })
 
             if (!token || !index || !team || !challenges[index]) {
                 return reply('Invalid input').code(400)
