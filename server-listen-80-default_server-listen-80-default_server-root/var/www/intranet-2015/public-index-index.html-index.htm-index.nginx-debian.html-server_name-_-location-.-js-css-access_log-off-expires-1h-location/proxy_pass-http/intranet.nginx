@@ -1,0 +1,24 @@
+server {
+	listen 80 default_server;
+	listen [::]:80 default_server;
+
+	root /var/www/intranet-2015/public;
+
+	index index.html index.htm index.nginx-debian.html;
+
+	server_name _;
+
+	location ~ \.(js|css) {
+    		access_log off;
+    		expires 1h;
+	}
+
+	location / {
+		proxy_pass http://127.0.0.1:8080;
+          proxy_http_version 1.1;
+          proxy_set_header Host $host; 
+          proxy_set_header Upgrade $http_upgrade;
+          proxy_set_header Connection "upgrade";
+        	proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+	}
+}
