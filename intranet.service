@@ -8,6 +8,8 @@ WorkingDirectory=/var/www/intranet-2015
 ExecStart=/usr/bin/npm start
 Restart=always
 Environment='NODE_ENV=production'
+User=ua
+Group=ua
 
 [Install]
 WantedBy=multi-user.target
