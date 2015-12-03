@@ -17,7 +17,7 @@ server.reloadDB = function () {
     return server
 };
 
-server.connection({ port: server.config.port })
+server.connection({ port: server.config.port, host: server.config.host })
 
 // Register plugins
 server.register(inert, function () {})
