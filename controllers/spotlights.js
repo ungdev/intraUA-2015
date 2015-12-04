@@ -46,7 +46,7 @@ module.exports = function (server) {
 
             db.object.spotlights[request.params.index].tree = request.payload
 
-            db.save()
+            db.saveSync()
 
             return reply(true)
         }

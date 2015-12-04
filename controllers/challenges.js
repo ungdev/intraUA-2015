@@ -74,7 +74,7 @@ module.exports = function (server) {
 
             if (token === challenges[index].token) {
                 challenges[index].validated = true
-                server.db.save()
+                server.db.saveSync()
                 reply(true)
             } else {
                 reply(false)

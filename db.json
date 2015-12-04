@@ -1,24 +1,17 @@
 {
   "events": [
     {
-      "name": "Test",
-      "start": "2015-12-04T15:30:00.000Z",
-      "end": "2015-12-04T16:30:00.000Z"
+      "name": "Stream CSGO",
+      "start": "2015-12-05T14:30:00.000Z",
+      "end": "2015-12-05T15:45:00.000Z"
     }
   ],
   "challenges": [
     {
-      "name": "Imba LoL",
-      "desc": "Gagner 5 parties consécutives sur League Of Legends (premier)",
-      "points": 70,
-      "token": "tokentoken",
-      "validated": false
-    },
-    {
-      "name": "Imba LoL",
-      "desc": "Gagner 5 parties consécutives sur League Of Legends (deuxième)",
-      "points": 50,
-      "token": "tokentoken",
+      "name": "oekao",
+      "desc": "aoze",
+      "points": "60",
+      "token": "0wk",
       "validated": false
     }
   ],
@@ -27,23 +20,2862 @@
       "login": "extaze",
       "password": "$2a$12$7Fd6R/X5VC3ZwlnMywoO7eA0Aq1X05HNKj8X2qIlonSVMqOgEDQ3G",
       "team": "blue",
-      "score": 50,
-      "lastLogin": "2015-11-28T17:02:39.595Z",
+      "score": 0,
+      "lastLogin": "2015-12-04T23:33:32.443Z",
       "admin": true,
       "tree": [
         []
       ]
     },
     {
-      "login": "extazeB",
-      "password": "$2a$12$7Fd6R/X5VC3ZwlnMywoO7eA0Aq1X05HNKj8X2qIlonSVMqOgEDQ3G",
-      "team": "red",
-      "score": 150,
-      "lastLogin": "2015-11-24T15:55:28.247Z",
-      "admin": true,
+      "login": "Durdanus",
+      "password": "$2y$13$bR4orqoZvV2tLAi.Q79tQOY/HXF.3Cc8KXSEUfiizr.p2sREjz3r2",
+      "admin": false,
       "tree": [
         []
-      ]
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Kashenya",
+      "password": "$2y$13$T5PeHNwXuIFpklwabFztFOaBUY.1mbQBbaBsiX8n0icsmPRKjXl.a",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "tomzk",
+      "password": "$2y$13$O8J1VosMBgtu0jUrAOayfOok9MGVx7KDvAluNkRSNpB3EW0PYIVIW",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Otakai",
+      "password": "$2y$13$z5LNGtA5HDkxuq50IDlXgeg8HHKrbhvJ9MK9.GXpbi1LKNzgeM7MS",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Shangoo",
+      "password": "$2y$13$u0S2sK6hjPWIYIYLsCYLge0rcXuBRsklZ0I1655ZgRI6.NU6G0N86",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Wayker",
+      "password": "$2y$13$SdX2EVX11Xdt4KG6PnsiMOgXDbYAX/lYsJgq8J1M6bNdUpeKrDDw6",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Sticot",
+      "password": "$2y$13$ct.JHCbWJzSPwii4C/Xseu7aJgTk5jeGQjSS7HP6UYxalqaIWfXFa",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Haken",
+      "password": "$2y$13$wQ3FIzQmZbcI0vfHHfFmHeudiOlD4Xjprz1GbllrjR13jTfj59ymS",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Flo",
+      "password": "$2y$13$q5QrYClXc527.sqOSLAP4uZNtR3DhcNgHew8IiVLtjse7xj.p/b2G",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Cambodianqualit",
+      "password": "$2y$13$7kzBMN14ygz/Ec798qVM4.rV5ZEH/hm8f59eHxOcfPD0GrLjvd16G",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Rhaum",
+      "password": "$2y$13$liqrtEWnnh/mLKMtVOJVAucKY8efBSRWUwB85xiD8y9hi/dFO4.i6",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Le curé déluré",
+      "password": "$2y$13$.KrcIsqzjA.R0.iwIrP2deTbZI8SIyb8w.w6YqosBBCs7Eq29Jlru",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Allblack3000",
+      "password": "$2y$13$EYdjZR.mH9.eUK5FSnPw9.xBQ.60/iV8JTHtEKdbuWTDDs4w.7xDK",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Wrath",
+      "password": "$2y$13$roz25gxkHXLP8QLWfvbf4uZ.4DY4/jiGSBRr7528Fduj9hWScbS8W",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "luc10600",
+      "password": "$2y$13$B.769ybHybhhjsTos4/VEuiEyBH326tSrFKwcGyamaW6kTVu8oM32",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Rho0o",
+      "password": "$2y$13$A56YP2xDG5iCe3y4FfhpfuU2N1AShyBA6wmJsGegBbG4DSTmQ8h/C",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Koblin",
+      "password": "$2y$13$67B2aWYQ9aw3XTkcyDBOMOe3pvLXE6vNf9A.aUsuhVMT38ROydaaq",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Paws",
+      "password": "$2y$13$4sQ2WKpR6ltixxxoEfpe/elyiHpQs3NtRlM7UL09kYn4RtzpPvqLK",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "G.Flaubert",
+      "password": "$2y$13$4/XKPd0KCkUC9uZ9URCWkeoW.NXSi1dWqFSmp5qD3Tabvj9nHuWOK",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "gizmir",
+      "password": "$2y$13$fzvwNqi/d/Oab2VxRwmzHOb/tkv4OZoqFxoYaJ.NuhvEJnGHhG2Pm",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "guizmot",
+      "password": "$2y$13$cvcOlCU22GxI3bphBl8PJOuxrDdlvwdDoU6nibEwpZmxWl.13ntiG",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Inflammasia",
+      "password": "$2y$13$6wI2J7Mg4xD6Ds/DIfVOvec8eFiaGoZNlrO/HKL5IBPamUod4ggsq",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "laio",
+      "password": "$2y$13$OAFjwbYCumSDKQJifCCGu.VJhwWD4M3vJYBk16mdmFfhpL.I5LSyu",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "PiKaB",
+      "password": "$2y$13$A9P2anskC3t3tChpkufkZuI0t2mYRwldp2/59C8EJxX2Sl0MlVCj2",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Hiii im gosu",
+      "password": "$2y$13$bP6pSRVsrVW96jiELKonhu4StBcIMymjz2PkliZkawKkdSpV3jAVC",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "What The Panda",
+      "password": "$2y$13$SBnFpKeeQmKihgucFrLSYuHyThrwEgF7kXqJaHTbUzxoMew6Qxtzi",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Nessaj",
+      "password": "$2y$13$177WzAYlt807KOhBZ.i2p.PwNtU9TkY1NbLdKF/Bl2tB4em6GdMue",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "UG EvilBeefJmb",
+      "password": "$2y$13$1cxxL87m5JzxGfeqCmXYM.TvPkpSrtjLfRaDkLxm9Fy5ORiTDUWcG",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Elbatzio",
+      "password": "$2y$13$0zY1Ik6NqiaVlF6ZJH7sA.iQHMO6.ntcI1.LIjWz4IMJ3XXA6qv3S",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Haidesu",
+      "password": "$2y$13$jAKTVEA0KrJB0jpKD/S2K.5X/lmk3l5v4UwX42WXPVnNJXD5IVpOq",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "AzP SoapyWax",
+      "password": "$2y$13$g09cdyab68HtA66H4a.b2O6l4FtLZBRNskb.zPk.58.q0AJt3DkWi",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Sicarius",
+      "password": "$2y$13$gsV1cLQJOrjtFkou1vgWzugs.AbOHTIrA/D4DEOdsitEzVJZDlshG",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "DJOOW",
+      "password": "$2y$13$yU86vUt.kT3Zk9yAh59CzujBSP2zGI0nXvcFVpoX.YWVWseuufTe6",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "MadMatt",
+      "password": "$2y$13$ybah.4oVKNOrbxI1LOlcYO.k8H78ZrYSJ6EkmEl/sba5yiHmE0Wz.",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Zaraknand",
+      "password": "$2y$13$/2riF2aZRzG8BhgiwTh2mu.qcR5IJUwXh93U2lzzKxGkyRYmZYI0m",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Frost",
+      "password": "$2y$13$WaZrmDEwl4Cp2CAG2vauMe04z47bCetqciJk.Zhv3it4SCERcJMsy",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Phenyx",
+      "password": "$2y$13$NZbfXKIJPx2l9oZSyI1r.ui1T1/VEFuE93/ljixj1MqGicHLEL2RW",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Màshida",
+      "password": "$2y$13$GFyCetBLAn.bV9Tx8LQHCe9XG9OcC2J.kj1YNy9Ukrj/8.4ZJxOu6",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Salamandar",
+      "password": "$2y$13$frg70LOineDgZlvMquMIDuC1nbBALU3eaX8IJ1oZR1hQ7g0cG/2f2",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Tarkis",
+      "password": "$2y$13$alCCbFSF3MIzuJnDAXyVrOJa6yuWfoOIeRdNThX/l6O9mgFm3H02C",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "BasilicLizard",
+      "password": "$2y$13$ApqQ0wb2euC5Aeg1vL1VF.mhypRFsK2hSYzgyLBU.OgCsbOjKOhQS",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Playrepeur",
+      "password": "$2y$13$RlyLDseWnUI.NSI105f5g.C7Q3nkQkopIdqx1LKHLojyoQs7ZgP9C",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Miiosoki",
+      "password": "$2y$13$62wRoXnKH4G2lopv377WOOdXZBiMVJ2HLcVGtw/lGqrkfthrtkUZm",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Crysis",
+      "password": "$2y$13$H7deXQ6ew.iR/OKYColutOpuII5AucpfGFhqS3iOwXiJJxYU3b8Ym",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "bAyz",
+      "password": "$2y$13$0GhKRwrHY4eOxhDgTO.R5uPEDolgxpmfvABLGXgYbdADu5SeH5UDO",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "G@rb0",
+      "password": "$2y$13$vamW9ihlGiWNTdokCeTiUOnpnlOw7rbz5jq1TVEpL0hAn2mtBnFH.",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Ayato",
+      "password": "$2y$13$g8XNjpG5/QMGkhDVDS/UyeOhXZSTvmAwz1MhCn2b6wQWojiAlwQcK",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Nocral",
+      "password": "$2y$13$yX6C89S5dcrSyIKJVnmq.uziXM7pzFL8nDLhQB9ZDKd7.E4Urm0dK",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Firraveus",
+      "password": "$2y$13$QLvhDp2xeQIOYZ3AQXbaAujPXvSKY179IprmpzlKitt.P/GCj/Xzm",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Cpt Athor",
+      "password": "$2y$13$duecv49wjZir7iEAdUWxzuIFXXYEc.vZIBzY4RTC9oC1HbpQ6mnca",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "zapo",
+      "password": "$2y$13$wDJpnDvbBr2UUD8KaU1ekebZzZJNXSda/4CwYQUpBppTCXkCUujeC",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "tartifletteboy",
+      "password": "$2y$13$IvOyxNQKLgI0h.fCbTA7VeZD6aUypiC0FryFfiQo2i6z9MEUvA.Bm",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "DA3MONN1AK",
+      "password": "$2y$13$IAhkDsHIxbpTpMLvkw1c6emJwbjy..dvFUPhi6CHbSn/VbLFUCrC.",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Elsa",
+      "password": "$2y$13$jmPS3d906OwXPlLIoufHCO2qAs2hCeBEE.gwzXifi3zhwiY53r1hC",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Chakrams",
+      "password": "$2y$13$BvkpFtiNlKgpWsVI.hyMxei/V36xtyJCnOvsxzLIja7ieGjxs/gda",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Ellundril",
+      "password": "$2y$13$WI3n1UauR2m97EPWiWnzium2EFFuROd34TthZ7VMvGyU67miK8GIa",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "mamar",
+      "password": "$2y$13$cGzp0M2ikcIpANUqVHMP5uV3EeOLxX3iRgZoFQwvl17hop.Xyl1yC",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Correlan",
+      "password": "$2y$13$GMLcHbnDbqv8N17efT./GOEVTtu2pMhjASr/G1Vhb8bQsYwotdziC",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "beyAzw",
+      "password": "$2y$13$27/P0euVFuWt3pNCtzKzxOPJFF8TnZrhXj6qlt/lncQn3RTBbweEC",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Bliitz",
+      "password": "$2y$13$QFAgb6lmGk8.fCWKd9S/3u2a2E3nc/sr6KmqZvEpnuFmIxO/YIRXm",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "natdead",
+      "password": "$2y$13$NQvV/IyjVrHqcMm4g2SUOuEXG5ZGV8MN0BrSMp.1mbMCtxPQjb0Ha",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "OrdoMaleus",
+      "password": "$2y$13$MZ60GyBxfSoiY30tLLiu/eVPZhZKcxSbFlmltjl8EKouJIhJhMbl6",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Auraë",
+      "password": "$2y$13$JjILQVfSzWN7Sx8VqhOQ.O6Zxlbu99q9s9ukFihR9sx0RtY/h2tlC",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Choupinoupinet",
+      "password": "$2y$13$BKTj5Bunsdon6mwvw4IKfeuOkA1HfKom3hiQiajW38MudtPXCsuHS",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "makayel",
+      "password": "$2y$13$qabWEmD9uDNg97H5IqzUQ.Br6ZRMAg0pY9RaYYDSCesaTHtYnCqvu",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Baxter",
+      "password": "$2y$13$ymY9zrplsOORmivNfg7gxuIdbY7IlRtgVei9CIelnfd6TPanNe2ci",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Furious",
+      "password": "$2y$13$hyQEht.RBJ1spXZxZRUK1uoIi3ImfK0Wky6XAMibdTNQoqDILDXP2",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Nox",
+      "password": "$2y$13$.G.Tc2jO/7hohclUztmsFeZEqbTaB8lG6io3Us50.UmVed1Jnh4xK",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Nocte Iuramentum",
+      "password": "$2y$13$auL1vN0/GJzSy3kGv/hL3OuUgbw3gMrYVjteqHNR/ylivcUTeKywW",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "svNska",
+      "password": "$2y$13$WooApeMoj4SwjvzDu9A0QORQKswlRZ85cJNO6sa0ACmO7hRVLwcWO",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "WagnerKulis",
+      "password": "$2y$13$UcMwjL8g946Ty96AuGR7i./Vc3yBH5OtIQrNwE2u.o0J3YMu4vPD6",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "SupremaTie",
+      "password": "$2y$13$C2c/7BTiOiecRmSIEpX5w.Dng9g8GqVGjxqUxhpLEQqgYfBCjD2py",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "victorlevasseur",
+      "password": "$2y$13$opRJLYVdbHrg6tq741nWleL9tmIEcstusge8xVJ7yzPhlojBjk39a",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "P0uPy",
+      "password": "$2y$13$FCmXh/S9Vd6Bs6MXCC4VH.mP0WzkBondGG7j5G4U9jpKpAOZQXj2K",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Djyoyo2456",
+      "password": "$2y$13$MJLMuV0QuYXMrGTP/478bOJT4ylgMVp0LCgfkLC5geFS/khzONEKu",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Gydrop",
+      "password": "$2y$13$3PCGsY0oO/Lx4d3lXbIOn.TH49S5Ynfb9zMzSW9JN4tTZiPPuv6sO",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Imby",
+      "password": "$2y$13$68N9Aqzfz6lU9Z47eTEnAuSnKHEs93ooiIMFi1MKM4xpV7gee1GNC",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Heri",
+      "password": "$2y$13$vaomCXzCS8ZwZBsYUr2H5uxWUP8Id0ywZ8l3i6u1zF.fIWqfy/zxG",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Aziiia",
+      "password": "$2y$13$8GBFdsHn1TvAFtyJhDxiNujNRKQusbVzHkkWaE5V9ew9Y0dcFt1Wa",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "MistaKorona",
+      "password": "$2y$13$xH7qFamu.az8d4IaAcY0Xem9b2cw6PtYaiVnnKOMJYJ4wFOB3Ve0u",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Caezarz",
+      "password": "$2y$13$YGVLgGXrsla6agnwEp6kUeX0KzrHKzRgzSUl4Prl4ySG/oQ6vAkyW",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Merilya",
+      "password": "$2y$13$HoFX7VioBFVr7Rz/EOxZYe72rbZ5AqCtUgheHSOazRnUuRboTQ2nO",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "z0rander",
+      "password": "$2y$13$yTzW32QyqbIZtSmnla0eIOb2cfiC2KoOLa1/l.Iw8maQj8qQljAnu",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "CosaVadd",
+      "password": "$2y$13$7zlgSz7pgswopZxW89TRHuUTuWjygA23RArsXO9oH580mwXUoG/vm",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Berger",
+      "password": "$2y$13$sNgTMTYS0gjvUSpfYNV1lewq9Kx3Vj2wEstaW2E6Yk3dUN6TAf1GK",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "MrFullMetal",
+      "password": "$2y$13$EnokpmmhWpUhHTQHTV8H8OHbvcYckyRU0Rsbojn8i1v7gEj4wg1Rm",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Razak",
+      "password": "$2y$13$8yfrG7kWjPkjJQOnXDniD.EgW80SypXCPAM0zKvWNpZIs7KHqes0m",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Keraytul",
+      "password": "$2y$13$scjIOkTUyJ9FQoj5qAqFbO6KJp6ORQ0UZtg7vo/khyGRlUFq6fyE6",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Mojoboy",
+      "password": "$2y$13$ZlZsSbr9WBfl8BLkIag0AOxIOWttTWvMeYi7tRtRC58uLRwDgrznq",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Sunny Senpai",
+      "password": "$2y$13$KKcY5MEqY/aqLVfPKG5MYuQq4wL8kd1..MTjsA9Ms057GPK7B7rqy",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "CrazyPanda",
+      "password": "$2y$13$vJnPtO/EFfcPtZVXIcRqTuJOTl2EwlzZCSFQE6SI5hST/OJbZ/yMK",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "MiniCygne",
+      "password": "$2y$13$7pzqtxoz9Fn8O/3yd28jHe.b4toyG5bLmjynOH01RfUBIliM1d4Eq",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "BDCaddict",
+      "password": "$2y$13$y8x8HSsG9eHsc/HWMwVHZ.QRKd.a5XhUiNDKpXw0dH95im8oEGz42",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Minidav",
+      "password": "$2y$13$LoKtqiGFLaspjaiyBKwvtu0OvxzFYuLrP1TpwTLJ3TRR5rlWkM7.q",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Alana Lezca",
+      "password": "$2y$13$iS0ItG2kmRG1ZVbeGVqIRu4OMjGfMOPRRNexuhkPyooH41uqhZCUG",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Touch'",
+      "password": "$2y$13$zHFPUBO0ebvX6kgIIzI.OuRVcPOrh5Ej8ZgPni1NDABcPstDdKuKi",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Tromodor",
+      "password": "$2y$13$LADlh4SnF4GRW1c.UlsdOeo652HfbhxNcqW9hElT.3St.2XXU2RBO",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Jared Rito",
+      "password": "$2y$13$uGWM8olfXcROAGJZpPcQyeLaVH.2NgNUhWg9B5T5Q9W4fcwwBxJnO",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Sdede",
+      "password": "$2y$13$QtDhZKQCeyCmitNs0Xx0nOuZ7XiGo.DWfjvY/cpVzBy8QcFgvJMZe",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Mal Au Bide",
+      "password": "$2y$13$.21ic/3arAhL8vG3lpbixuyN7LIijjqVCi.ZTnV/PkyW93WoViwcu",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "RamyTheNoob",
+      "password": "$2y$13$VknjOFUmkjI/G6Q9itx0JeaY1NdYbh5tm4fcxRx1uw6wSVa4gFdre",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "MrChouette",
+      "password": "$2y$13$gF8u5z6T6qaJYLbKAHTxe.IarOatkqtpHVHNfVMrFuQLWrnTAsbci",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Spyki",
+      "password": "$2y$13$mWUcM/3/KunpcF5H1u5gm.hncbEHQA5Q92jpo.DnMQZiNI/rx.eJ.",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "badbois",
+      "password": "$2y$13$RQ.DIgJpVfDU5Lmq3X1P0.tJt2911nUej/lb2dvKF74VLiXDYYLfS",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Spktrum",
+      "password": "$2y$13$nKAmm9nNHeS.tj.KNigou.F6ztv2iEEhPuZpxcxx2s56F3LKdDRUa",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Thanys",
+      "password": "$2y$13$30oOTogH5nHQSYkxVpfSwuNGqMOqfJSan4.TiqGIUGHlSBNxdyiHa",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "lupigFR",
+      "password": "$2y$13$eAX2CPjhW2F3gt/ZT4GCBOVf2u331mVqSStZxTXQRsPSALJqRwFaS",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "PsYkOz",
+      "password": "$2y$13$.rIFzyR.BCA7qFsgco/GBe/aofFRL0gqd2YA5jlPrOrAkn7DlK5XG",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "BreadWolf",
+      "password": "$2y$13$0mRDoQfZgQPlUsnfMuiBsuBCfMYSEqP2MBts4yzgmtrzLPCKPSQgS",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "INagas",
+      "password": "$2y$13$630fj5hBu1nnGhkEVGZyheH3mU7Guh2qeyvFW9n6jUfwk0AelEjpe",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "PgunMan",
+      "password": "$2y$13$X6rBUCAzbvremObWbvELsOWcgIyH2zb/M9hgUdD7N/HXARZXotK.G",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Lawwin",
+      "password": "$2y$13$YHFP5G.1lWSYdoZMHw21d.ZxQRwpBpKdIkN7r0RtgJYqDAid1A6ae",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Yurino789",
+      "password": "$2y$13$USbXMsOKJVuz9oUY0fL2mew3q1xTuNrEOWio3nuOY.TfzeBdyuBKO",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "ToRto",
+      "password": "$2y$13$boRXqLP5hUMFCYLVOe2yZeZiBYnodROc1g7KRuizTKqCA1enaLmW2",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "kaYmaak",
+      "password": "$2y$13$jZGHD7kIYxzrqjsoweYtTO2d4Qji3ZtrC5ckykgyyTMfg41PFUqzC",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Dr.KinSlayeR",
+      "password": "$2y$13$IR0gmHqKV0t6Kpi5FzvSLeFj0IXGXRq1Y7bGkNcKY.zExOlS9E5tO",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Ngugu",
+      "password": "$2y$13$18u7dU8vfvF6qtsEs.Bvz.WsF7n4dPY2vtZqB2B//4RBkGyIP2Njm",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Reb",
+      "password": "$2y$13$s0N3dIT1S78K8MGWf9oKdeQh2MhDE3aJUjJrbN/Qoo1rKHY.ZX4wG",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Made of Cloud",
+      "password": "$2y$13$jJwRaK1GGEPJ7aiCTZb3q.jna9GoGnGW3Z.YLec7GsHHtPoUcRB4e",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Toboeh2",
+      "password": "$2y$13$B9Xls1lLM6lWiknqDHArCuygdNChyUphxwx.4sHBBSV6Beq.sXjq.",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Rastayeah",
+      "password": "$2y$13$2C2Qvo9CNTXFnRzMttaaZuyGKBPje6GpRLJQQRg1Gu9j0sOudwsn6",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "fox",
+      "password": "$2y$13$ZLH2Kv7Jlc17pPGEMbpege0Zgs/bmRgZCDbMns5ZHSHn9aONHr.A2",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "ElitX10",
+      "password": "$2y$13$WaU1C5E4CSCJzlYclqxOm.I8oE.61DCBNDZVyDbn12ISwwQJQLyHa",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Vinvin27",
+      "password": "$2y$13$ucwFdOBGCORuykzux2DhaOyEd80YNRyJxGuk6Mhuc54U8npQe7Dna",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "gabigabou",
+      "password": "$2y$13$v/T4x1zj3WoaEQm05B.sEuyBr0kKd3G9HCTMkrE/ehhxfbohyouB.",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Hefto",
+      "password": "$2y$13$kjSoy12AZwFK4h.yvYsJb.LGlFHqRq.mS0rCBqofWoo2ffpI3X/su",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "HandMacking",
+      "password": "$2y$13$PdFB5xNF4dcW/P7htDcKPejjVBHem3UVomZ069.iun4khU.YjXRLy",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "AncientWay",
+      "password": "$2y$13$OGfCYujRKgVzpc2VMcmRqu9j97EQmqNlOgD0wg6d3GyOn8tBKp2Nu",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Bart",
+      "password": "$2y$13$CGBaBCX1JpnU7w2MnwKo5OiyCIj2.Nv7vHTuKpwUMaSNhZLzx3UMW",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "LangousteSexy67",
+      "password": "$2y$13$O0rQlc7TL2S7TAZSvF1t4u6KHAG8nH0ArL4Wi8/WuX.9eR0VBYRxm",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Pirtal",
+      "password": "$2y$13$n3nlB3PPonAm.08PSmyksekMzIXwsiODq2Yg30VlvcHJmV2qibnUC",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Yapiiiii",
+      "password": "$2y$13$6RROa3zv4dnGoj/aORTXa.HWhLjFFNNmzYe.TWYuHpxbaotrq2X7u",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Egloria",
+      "password": "$2y$13$tE8F/uXxPEdLBHBiHkqEU.0p6GapLUxPpBEgE9ZU41imd6n8vRzw2",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Cosack",
+      "password": "$2y$13$VXhM3ZXn8yXS0bTRA9.hD.V5C3HUIfj6/36Db.SzMqxqNfUWC5RGS",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Brybry",
+      "password": "$2y$13$5CE7635SxuUrK4ipOxOBTeQog7Q6ZRGDrKc/yTs7CIlpkUnxHmOB.",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "MoogBamil",
+      "password": "$2y$13$S.dvOtoVEZpU8sfD5GnTOOIKDGN7nuYrB8wMhTg6S3zXnrKY6wtG.",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Poutre2Platre67",
+      "password": "$2y$13$6MzPObxgrxbtsSz.1zA85uDKKq1wA5Om4DsHtz61uHQAzLEm5UJSK",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Elarkin8959",
+      "password": "$2y$13$XlZ9YKOQ6hK.2qAnVkljoOx62emi7K1IujGa5Fsplwy6qKumBXc2a",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Noky",
+      "password": "$2y$13$wn3qD6QbrACEKtj84rqp3uvvrJmNZH/eCzMXbf4D5C1OGkxEPMzvu",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Mercu23",
+      "password": "$2y$13$onxwFZU7ZnovTesWEkJsS.R3Oc6vKV5JfrtFYWfqrIKMtk2c4pBe2",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "KonTikiExpedit",
+      "password": "$2y$13$QgcPajcqKn6haTU8jXI9uOeMvRTG7b5zLms3pKfyZfXsD44lyyf7i",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "alibha",
+      "password": "$2y$13$Zz1l9wT8HshRTQm1BIIjwOR9KLj4nuGVrrNU6gQvRP5L0vs9xNA.S",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Akimmanir",
+      "password": "$2y$13$9vsJFsHsAdhJEGjgSFYCROwk2zTDdTW4KuCCn9IfNOOOKMcESpfOq",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Mappiou",
+      "password": "$2y$13$dqvaWZ.7WkFTk/e2eo6tWedIh87eVwCXlmdA.RpZ171KkywxxgSuS",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "TallDude",
+      "password": "$2y$13$n.O8T4.R35srZde.nYlHR.IDWDPnTzZ5d5p6tBpUTB7RTQq1y4AgG",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Monkey",
+      "password": "$2y$13$coTMlCwZ2d7KzGqNlIuPE./xRdsTH1NbrjifF6uGSFAdkvProaZ32",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "tedyour",
+      "password": "$2y$13$u/aaFffjeHgvtojEgVxLfemWBi55Rvh/4lSBVStqMBggH4KG7XWvq",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Robinou",
+      "password": "$2y$13$QgU5gQIhDtb0Ii36s9sPM.OpWXGXOajW5bP8flAxHpxHrZk5.AhTK",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Blaxior",
+      "password": "$2y$13$cERrG65uMFfuY0F9YnAXKOG.3paPv0BdfYKwichkCyiO6JlvWKneS",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Sennin",
+      "password": "$2y$13$.LWDX02n4coTmJgfgPlRN.4my1DsURo9E7mWElzbtiVqLW.Doy6wG",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "hqrd",
+      "password": "$2y$13$K5rxHhHLdXJiNSbL.oEx2.9iPIDMtiGx3ieERZ3QTobM1v/CYZODS",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Suke",
+      "password": "$2y$13$5FawgkBlv9sDHIucX5Mpn.6yYVZxdv88n0kBsO6qUG39R1m6Yglme",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "CaptainUrfrider",
+      "password": "$2y$13$IwGD.tTTlrXeDujFHdvdE./VW3cOELxkbN8D0qqqGgtSj7UObIdi6",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Flush",
+      "password": "$2y$13$PlCNngyH1FF.kfoDGRhOGOD5E1OWvO7JqkH22scC5/kRLVGu1L7Be",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Fan10",
+      "password": "$2y$13$PeNmChebQjbn.I0PA6SYveOOjN6Au09kRtFXMOlZzRZc5P9bliuru",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "KbA",
+      "password": "$2y$13$Gg3YZe22GYElL75Sypx0yueV05xXwy/.q5tgv26JjAvuOT7z8ph2W",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "☆ Darkinox - Fr  ☆",
+      "password": "$2y$13$wccK1vsG8GuCX0iuj5EhAOMs1aJVfzJ6M.UbaO563hC2kHPRNDREa",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Reldhas",
+      "password": "$2y$13$V0HJ6GBxt2q6pr0XcZwoV.FCDwIPozEcIl5OwTvnH6m7TuKcLFg9q",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Garek",
+      "password": "$2y$13$nIDpjZ899qlsrJPIwo1UsutaZi.uMm35a2MvA2Yp5BOR2JcsInlZy",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Toucheurdebourse",
+      "password": "$2y$13$4xi.G.In40WoIf4.KhvGn.mDCGJKAvJllid6z9ojSBJ6LmYFg37K2",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Antarès",
+      "password": "$2y$13$i/21.L/xg6yoFcIw2MK7Gep3A1AYN26LPAmdDagXVvBL5pC0D/.Xe",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Wewis",
+      "password": "$2y$13$mU.pjA.Z0C0h/fi331S6k.3LX6wf/F/eWOLApXPsh5O8ptpxxpCXq",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "KOO Waafiqs",
+      "password": "$2y$13$7VBFtHyJur6B/4iwUYxxZeIELLhzHas5Zw29UqbyMJIZPyuuQJ1mi",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Kaerox",
+      "password": "$2y$13$BgX.cN3/8bzap06mELy.nemyXKlRjunjWJEU9fICD0vhHGqT22Txy",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Flashz",
+      "password": "$2y$13$j8vZYNBLRFO2IwaiGRgW..h359kMr/GVCXRNsam2LG8hjSiTIo62O",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "HankeyS",
+      "password": "$2y$13$xcnPSubjzMXxzXJioKRlseY2vyYjBKaInVZuZ1jpWHYOXTGRpeKvK",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "KetchupMayo",
+      "password": "$2y$13$bQbilT7/.pIRC5zZxoDMUeksRDWr.wH4zaiDrcYF7ix3K0.m/5aFC",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "neodas",
+      "password": "$2y$13$NKAyPGyH5DMx4nFnvp5iX.jlU.5MPXzb6iJOSP.dRSZ6bXPXRh6WW",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Revan",
+      "password": "$2y$13$Q0ODhOAtI3YH5Kr1Vypm4ee42NoodGy5F/mHAIqfjsYtjxK9Ls1ya",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "MAtty",
+      "password": "$2y$13$VvUH8mHC5QzlvOY6m625XuoKDWTtmNSrcNSEq5.PEzYpArQWYzlxi",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "RevZ",
+      "password": "$2y$13$PQupfyP4lkgihPohSgc78ufiCo4iKNcuKh9kYv8laCv9Mb9Gci6GS",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "bobbY",
+      "password": "$2y$13$UZ6fL4xG20wZ7S/8g4XtOOzsl0o2aOSnItoCEGR6VqVlC9aTh5HNC",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "tomsawyer",
+      "password": "$2y$13$HPk5iCWNBepvyE7fWfKHNOLPU6ACVdRSpL.LMhH8bPT9atKE1b8lW",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "émogaming89",
+      "password": "$2y$13$BWeLovQvGQCio4NEmUHPI.MGSnsk0BnNHyS8Jve3b4xy2Rf6RUN1m",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "kimbox",
+      "password": "$2y$13$oteOpuEsqAr4xIXrF86iEOxbQsj2Jxu0in24FjOYdYnZLtLlRrIHq",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Polethierry",
+      "password": "$2y$13$eYJBNitPIGYaWDwqQUUrQeoWipZmHm.Yubqwd38TMQ.9A/bUcHgZm",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "pRedlalalourd",
+      "password": "$2y$13$r54fc4gqf4w9uoGMwoObU.l7l2otCzpbmu489kZPiQWKXQ4QyoOzG",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Bakamishinix",
+      "password": "$2y$13$pS9ycXIRmQKPd0YIIp4pXe.MOFFW/SRR.6VhitkhFFy0xxIowIo/G",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Okiz",
+      "password": "$2y$13$O7pP5GUlorBBVFHMTWgAwueRQXJsAE7htGmnZurN7o3R5PXWg6gsW",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "titinoutinou",
+      "password": "$2y$13$rQ2YmHz/ULg4bfUUbdLWBO/hRlXSKmUV1le0SDCgPrVz.O1rNenA6",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "A3zy_TreeCkz",
+      "password": "$2y$13$wnuvLv1uOb.SoOghpbsU.uSPCpSAV31N92NcGWSwloZMc9y2ipik.",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "thedej",
+      "password": "$2y$13$xmBfqMzBbIdq3OB7q/s/J.rTnW/7fHERirBc18pQUliZIXVy9jpda",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Mastersniix",
+      "password": "$2y$13$MlmsQ0Lp6C.ZN1nQ6dBbh.fT23j9K9a7Oil9WQBy5O3vnX.Z6Skei",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Folk3n",
+      "password": "$2y$13$BO3SK3KcbwRTkh.4iqjFLOJZr35QhqoW0oJrfI7bua3dBFZt.9Gs6",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Lafojo",
+      "password": "$2y$13$rXlzZQFTmiUIvXTIe1kh6uOXFPyAitvZpDQnZq17txQYb8cM7VsFi",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "JEFF",
+      "password": "$2y$13$4/aMvSE1dMJCpHooPasnZeH6MKVw8zR0H9a1SgFRigNEbmLtbuyqa",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Neus",
+      "password": "$2y$13$YXLRfuuk6T2ReQL.RimG1.CQazfTl.ocqmqE1khSEvAHXSaYKAr1i",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Lapetiteplante",
+      "password": "$2y$13$ZR5YiuLQH3YNVrFsy1rJF.58TaQQfXFDPcDywdqxuCuuH3x7lVFOG",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "JACKZ",
+      "password": "$2y$13$HnRjFIM8YNFNMWjDDfZy1.68wTz.oru/wg.njUq17QlT8b/95/Ei.",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "luka",
+      "password": "$2y$13$zSC3LXM7WjsxVEWky5/d0eVXVCxENkOhaDQhlOB8XnbW/CvW4KzOq",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "azza",
+      "password": "$2y$13$erhflNjfYC2iJp87yB4AwOcidQJvSpXfXg0geU1O3Oh0Rf33hy45.",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Xanes",
+      "password": "$2y$13$SEdIv2bciLfnPqTvJ9LRJ.KeNHKQ93AvKSBgD6S3bbvW8p8nnw.IG",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Arny",
+      "password": "$2y$13$zd0vVQkrc2K62HMm/RVu8ew6ucMO150Ce5HJOKDyIM5mInfomveSC",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "l_erudit",
+      "password": "$2y$13$VypsuQXoInk5ae9TlNlJ4uEFxs7K5Q1yFl0PKIPjqoaGoOhIFzgfS",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "louune",
+      "password": "$2y$13$X0SyzG1bRuyoys3IZpGfi.fziiCgIsjh6zBn667.3EhLtft8Cq8tu",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "TaR",
+      "password": "$2y$13$sRpgHxooZOniXEamhVxCb.K9ZNcBfjUDuRdtGIfUaq7BvY3iW/Syu",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Sacrioaz",
+      "password": "$2y$13$yM6DNWjGaCEXXDA9X6lXp.w5fYLIO6M4cJ7SS3p29KQkWSHrCQFIW",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "NOUNOUDAK1NG",
+      "password": "$2y$13$T9fkk3zDLprepkxQ0tm9cuBvXVhaacn5qS/Wj.Xx9YrVIwkyJoXNi",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Cenazar",
+      "password": "$2y$13$G9wVSPnaSUnZ5UR6MQw1oeh/WnGCUFm3LdOJkRuf/zIx2OnZ51pe6",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "KaBaL",
+      "password": "$2y$13$aJOP7/LW7Mt2IBM1OnENZ.7B35dB4hHyo7mvMX8ewcAVtmmbPAO3S",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Lyco",
+      "password": "$2y$13$sOyWFj/YeNdei4ZtQnH/I.y9kU1k1zkwgxw.wMJd1m6qw7npxbLYa",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Mada",
+      "password": "$2y$13$1yQM5Gh0o/qv7j6LkKTaoOHFbLGE3V7lW/DWQWB3LK7b9UPqrfgie",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Terin",
+      "password": "$2y$13$3rfkVgj1Qy1Avh.A5K2Y5uqt6DfLZaoKy3Dwz2ERh/mcjd29jGjUC",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "GohAn",
+      "password": "$2y$13$MfcqMZu9FMdbW2xZT72U2eEQqXTvjd4NpNDrt2CvmPZxdzNT0UaYC",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "bob",
+      "password": "$2y$13$.74M7gvcBoD9bmS3reHncO3ziZxzkvmw8BrsKuKAgf/zd.6xnrkrS",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Tyty",
+      "password": "$2y$13$eY./nc5kynp7vhgVYEoIaevnVvvVhLb7M8Ksz8vPT7RHPUOecI1fK",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Sinestrix",
+      "password": "$2y$13$fZLJUUUvXbeaCTU0y6J7AOCTHCC.3zMeecEh7if/V3SJfMUmQmCIa",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Freezs",
+      "password": "$2y$13$UDEOb4sSOPcei4a8.KB5eOvsTqVzqdzL5K9mR2lQbe/uk6/5e5SLC",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "DEAMIX",
+      "password": "$2y$13$TRM62QeQ4y3MmHlUaK91KON95RiwTgfHkYGuYBNi3UpF1SzJgYJ1a",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Mtd",
+      "password": "$2y$13$wYec20XSR5agszLyZuW9ROKI4lj0tCjWPAGZdwBkywRi1N8kxkr1m",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "pitch",
+      "password": "$2y$13$c8wpBw6Y97sZDi8KvjtUmeoqcvJ6iQEiIEhDhCrLioS03UixnMIuu",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Val",
+      "password": "$2y$13$eCpGSU8pcf4D4HgJIcoDxeas/hAPYsV1ppxRfTbyiIFhN4NOhyvTm",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "SiouGirL",
+      "password": "$2y$13$bERTRxI.vsD6wAYceP0xCOtLEPtTtNUNMJTrAjtVSxQlKiU1xentK",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "zinzin",
+      "password": "$2y$13$6qdMSkSz9aHNfdZ.iu1fcOnpUZoUbHmx/12.ln6L0s6iXQ7NwOQ3i",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "ATW Orogaki",
+      "password": "$2y$13$6FSDvZorOZrGG4PgARpvrOZ8qL3jNwqVaya0Du7gSBo2dYOUGgoRa",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Thibboo",
+      "password": "$2y$13$fnN9hoslIdsZyA36ihWnOOviRL55dhri1TSIs/6ETulenIMoHFNBi",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Red",
+      "password": "$2y$13$URExDot2gmnJX29fmc70TOu8.Hum49Vh.R7Att70l3rwlKlIL9cmO",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Napen",
+      "password": "$2y$13$.DZDRrA9DZsYrwqr2cKTG.P0awBobTKSYM6agcf2ZeIB6wMkgnGKW",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Weelzebub",
+      "password": "$2y$13$AdL9yZdBozQp3Rz1qvCg2ejgXKBSJcwUgQ8X1CoEezYflQkYxXYaC",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Bonta",
+      "password": "$2y$13$r1whqdiC0gqLOvwRuo3Im.Mbj9HNcbB9s7L2cqcZUosXxL9uZkPva",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Qh j0k3ri",
+      "password": "$2y$13$Giuxj8PdTjqqy20Ok5h8AeEa74Kl1A/UtSQXyHHKs58kvTYWl347G",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "WamBaa",
+      "password": "$2y$13$Qj/2QJOIdI/0kklxJJK78er4NizGjvJH32Bq5j1oSgYAoKBsd2i.2",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "FLORIANK",
+      "password": "$2y$13$TvPGu5um158.UkUS0EEvH.h3jNgIusXj3Vv/RgD0QnP/PfGzaXEqO",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "AK.zed",
+      "password": "$2y$13$AN1pIAZFjh52jQy4jouxz.quaAAujyZ3EAYzCCbKfa8CHTcn5IJA.",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Niklolz",
+      "password": "$2y$13$oUAzW7oY6S8Sp1bizKDmKuOj0CuZmS43uBqP/awA/d94bSR/ezevq",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "h4_",
+      "password": "$2y$13$SKe3SPRBxrbvaTHv906K2uCqCq1dc4b7mlb/R5w1iavZJ8J8zsRJy",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Smaug",
+      "password": "$2y$13$Q2yH2wRs7ZtBadQOVQ1BCO83H9CvflOqzmuNAHsLagx04uSM7G3yS",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "caldes",
+      "password": "$2y$13$acpKO13J4Vss3H9/KA2RnOCR.F034U19ilq0A1PsbRTPortF2wWHO",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "raghna",
+      "password": "$2y$13$OAPnU5LdV1Zl8.HbPUNfWODFKJEjQMfTSuEcJ1FqER1FEfP6rufTC",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Ginshuto",
+      "password": "$2y$13$Ms6mwKVq2qZ1XanXSlCyJe46yNAZvV7sv2xJbAKBZXe6GdGBR0zD.",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Scorpur",
+      "password": "$2y$13$2k.f3eQdykW8ljk50NB/..bWH9JRXsI0heN8wkvhcFjS7auOW0wgm",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Gogollum",
+      "password": "$2y$13$jpXONEi55gtHEc43QYX3DuCqSpkLgcqfj.ShtG1OW0AyzQ9Q2bjxi",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "TheZow",
+      "password": "$2y$13$C06k/tDVnGHlmh07ZAGKquTlLgmfS1YE9SJfNsFZlpPtBE9/z4Ll6",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "PYBurosse",
+      "password": "$2y$13$HxtnyyQEviWJBKgs4.IaxO6n1WbWMyTGkU4WRKHw8foxROmbv5vFa",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Daggy",
+      "password": "$2y$13$iepRV3T4qynWdQkMSqbFpOJAujI69durETXqCrsp.KFWVMxuk6vDS",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Tal0nMercy",
+      "password": "$2y$13$lDaVITzwaTu3pwfvuJxT1.qskgAaMy/6IX23xgcUt6G7Xuv82Ap.K",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Jirâyasensei",
+      "password": "$2y$13$VzKoOJbDMAZUHfOMOlKKf.Z39SMI1nEx5APaoV1ljCos3aRovD8O2",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "fieux",
+      "password": "$2y$13$cbpu6H0AzFA85001S0OAZODrObWHOW8Qc.bXZqdZyMnPDx5U0TM1.",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Piupiou",
+      "password": "$2y$13$1YWOmJ/jgnNDF0QoW4GKI.CKamTvIli8pt4EsgD5OyIn5Z/hm4b1u",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "QH Korea Spirit",
+      "password": "$2y$13$9orWDhKKQI79SyPJQRSZAODDaVAlgYp3AzVtQ5kaCinNVNXO/wufS",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Rafal0id",
+      "password": "$2y$13$BQMoWvrTNi1EXhoNq7.lZeda1pHO4rZJ4DMtrepjgYztIdKZ.W0Zy",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Satanus",
+      "password": "$2y$13$O0VxlS.8Sl/ruU40Y1tL9.K7MN7wkRpflO/J/OwiYSYrYFb8Jw4SO",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "NGC Patchou",
+      "password": "$2y$13$5a0.nOD8bp/nBUEjTKsV6Ol/3TlA/fZjYqTw3ToyOGx7amsx46UuK",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Scrogneugneuh",
+      "password": "$2y$13$vV/OKeYc310pDnXjHcjAsuaem1q/g7ZI/c3MPhN50/DT4ajIzM/oO",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Kelo",
+      "password": "$2y$13$jZWPooxiBaS6gp.tNe9qNuX4fRFkNHObelyqqQC2iy2XnkLcPNqpK",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "eLse",
+      "password": "$2y$13$URUofeYNUEhLmnyrl4/zcugsEPN7ks9RaUW3NfDQKp/LC3ItH3gEq",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Elowah",
+      "password": "$2y$13$z.bfqQxKqVE1pDMz.QpgpuaP2zSW16LY.hXtQ8be1JmStE9fq3fWO",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Princesse Teu",
+      "password": "$2y$13$nUSDuGcKKyZSSTU6v3dcY.saW.OKSVjBcnt.xW3Dl3mqIUeEaI0S.",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Kurøii",
+      "password": "$2y$13$tsiBl3GA69h.1z1V0Ux3xOZT2eBhD40VieySJqh0/kAJ3cLKK.uXO",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Slibar",
+      "password": "$2y$13$NzyRgrvozKLD/hc8gVu5Xe7/9OCeKtHzLXLe8ox7WzvfC/dimCzqS",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "lm the Clone",
+      "password": "$2y$13$urcTAxuvQAQiybvFtBLRXeYGA30sYu8a5jvIwUqyXF7RT8DM5VtVC",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "thx66",
+      "password": "$2y$13$iMjDC7DgQFFIzA2FoyJv6e3MYnDkBqP0EnhJoRlb/2h8Gu1I2ZA4W",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "OneAngryBunch",
+      "password": "$2y$13$v4IZVaIgex6DYCcE1PoC4OBIoERboKPvAbuY0ydwg2vprzZeeeRRC",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Noémie",
+      "password": "$2y$13$xXuRHwlHBW03i2xBNJ7zM.Ha/1gdyyG6/ErpAUkRUOTKb.BpCXg4O",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "oxygen",
+      "password": "$2y$13$.y4vcmUuStBrNS4q99SGeuiqxujVRTqh8GtrXZLrZYisZanoXtGfi",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Bloodboby",
+      "password": "$2y$13$BbI5ZajMbtqGeonEftxJPejduM6K19rhCOMoLbKX8.zE.hmaHZQg2",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Tolgarok",
+      "password": "$2y$13$eSrFiXh6USlO8.S0gQHbC.TIaWWW4pfEpkMNOV/GRmosX8WbRLYui",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Thomas",
+      "password": "$2y$13$n.85IAOCKzD0d7oWIF97Qehk07NPFR5i7vv4qLaBLvdMSLMdWnVza",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "AntoineGG",
+      "password": "$2y$13$ZOL95k6qeMpRKGWyRwuLd.rqXb5I.4IB9ni9WgY2f0uKU2IfSbeKS",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Lord Valoris",
+      "password": "$2y$13$9skdh55SLy2XDh0JIE4NaOcs6DSwqt84p0.dWS5wbfThILA9O51Fe",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Zarky",
+      "password": "$2y$13$rRJN9lhkKnFudDGkJPhaK.L.o4ri9anLJsJX9iRGIy9olAyBc1Yn.",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Lunatic10",
+      "password": "$2y$13$l5xSaJXK6NNEl1QUfYXEaO.iPb7astggW24TDprnZW5NnM481S08G",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Ch0ka",
+      "password": "$2y$13$g8GtZ.YbLXwwwLJpX04aZOMgeDWzMz3us31FNvP7MNTuufvjhR8ce",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Noctan",
+      "password": "$2y$13$RyJyya8p6pxZ0m.kJLiCDOLdvpZeK2jRVK5eYq258czVcxSCyKitu",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "PaQoZz",
+      "password": "$2y$13$5JfYJPTFixoqWhgna/cicuXZG5XI7blKPBWrKVkgsvunFI3Lab4Ka",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Salulesgouines",
+      "password": "$2y$13$bchTM6L1vUI3u3bw8NjqMe52YLNDL7tzWD0kqErc4ePGYNZZqXitG",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Kinolas",
+      "password": "$2y$13$Hv1DdhCx33kZ6gPTCchEu.PuiDB8rs8aDaNh4RenazreY9.D6aj2y",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "AnkaInPLS",
+      "password": "$2y$13$6Dcbx/yxyNepuWR3r4GIXej/hg3ik4oGoT/7FbxkS2SLYsq40dWLy",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Npnguyen97",
+      "password": "$2y$13$c7yy1vp0Ctb3rxQyXivr9.2QgKjh1UmXdDcuK8aBpryVFSX0mFTU2",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "BuBu",
+      "password": "$2y$13$4fsRiiY1XOtW.341dPI55O7gNDuWoUBN7ULP3goX7xGRvp9RAiff2",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "mikomik67",
+      "password": "$2y$13$q/apZW.Jz1/m.Y0pDk3gA.TFd8BLssk371beq9sw//pUNT.s6QgnG",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "tomtok",
+      "password": "$2y$13$KXwaWIFRdaDRCMJccCzTMug68P2JUh2JvyQ.fYwNiBYr0wE1UtEg2",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "PandaOfChaos",
+      "password": "$2y$13$RcKZrNZD6m/FtQy05tdud.dP8UiRA9uoea3KnU2oBV5/J6T.btkvS",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Saigneur",
+      "password": "$2y$13$nwrmRgYPdtoC6oFuzaT1cO1t9BNMbdBjpUsrvOdfXWn7vcvystztW",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "free poc",
+      "password": "$2y$13$5cydiQRozEBvH6Amayqls.dFj4g2qbk/70VGPx6Bqn2ydEkI7fSDi",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "PCS Noliis",
+      "password": "$2y$13$18bir4VVWXfCggJMmdMXxOp/gzskOPKL.AGRmZSA1knRHep3IFggm",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Im Overrated",
+      "password": "$2y$13$enpzfLPA4DuPaJml4whzcuPBHQO3CNhIsO9NDR6a8BbY4.pazB4Ym",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Anas",
+      "password": "$2y$13$jGCfUITaVPS3KkL8eWWm.uagQYrtYaiYomrhe7YDb21dlZRzZ6zDq",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "sperian",
+      "password": "$2y$13$LBAZerxfAsrBGwKCYyJUr.3xG/17ttEOgHC8Xr0.sqzqbJtiPaBfq",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "Foundated",
+      "password": "$2y$13$60jgxdg8GnmH83dgBwgTb.tEfAMhT32F0gQpv0vEQfGGxMY40eGqm",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Ethonexia",
+      "password": "$2y$13$SeJArvgIjvzr6Y85Xp2B5OKn8EI4KHDQq8Gw5qtQlYrPa5KT2lWs.",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "ManaEnopy",
+      "password": "$2y$13$jb3jH4.vf68mMfIXe3u5YOZJgb22DiqLXCVcoaPuGc.Ye5y6Kb5Y6",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Benez",
+      "password": "$2y$13$cg0kjqrebsrFUA8PB9pNOuuQYhN1JkxYjUe925s0wxIKbE12Nqif6",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "blue"
+    },
+    {
+      "login": "Relaxant",
+      "password": "$2y$13$AEXSw5cc2oI574So/ifesOhM/HAz.Inj2yki1pnLomrn3ROzwSzYK",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
+    },
+    {
+      "login": "astronono",
+      "password": "$2y$13$pYulLvgpcDuR/12EcFol2OLENZL19kNyxih/ojz5bxQKj5BBlSeF2",
+      "admin": false,
+      "tree": [
+        []
+      ],
+      "score": 0,
+      "team": "red"
     }
   ],
   "spotlights": [
@@ -122,292 +2954,286 @@
           [
             [
               [
-                "3",
-                "5"
+                "0",
+                "0"
               ],
               [
-                "2",
-                "4"
+                "0",
+                "0"
               ],
               [
-                "6",
-                "3"
+                "0",
+                "0"
               ],
               [
-                "2",
-                "3"
+                "0",
+                "0"
               ],
               [
-                "1",
-                "5"
+                "0",
+                "0"
               ],
               [
-                "5",
-                "3"
+                "0",
+                "0"
               ],
               [
-                "7",
-                "2"
+                "0",
+                "0"
               ],
               [
-                "1",
-                "2"
+                "0",
+                "0"
               ],
               [
-                "3",
-                "5"
+                "0",
+                "0"
               ],
               [
-                "2",
-                "4"
+                "0",
+                "0"
               ],
               [
-                "6",
-                "3"
+                "0",
+                "0"
               ],
               [
-                "2",
-                "3"
+                "0",
+                "0"
               ],
               [
-                "1",
-                "5"
+                "0",
+                "0"
               ],
               [
-                "5",
-                "3"
+                "0",
+                "0"
               ],
               [
-                "7",
-                "2"
+                "0",
+                "0"
               ],
               [
-                "1",
-                "2"
+                "0",
+                "0"
               ]
             ],
             [
               [
-                "1",
-                "2"
+                "",
+                ""
               ],
               [
-                "3",
-                "4"
+                "",
+                ""
               ],
               [
-                "5",
-                "6"
+                "",
+                ""
               ],
               [
-                "7",
-                "8"
+                "",
+                ""
               ],
               [
-                "1",
-                "2"
+                "",
+                ""
               ],
               [
-                "3",
-                "4"
+                "",
+                ""
               ],
               [
-                "5",
-                "6"
+                "",
+                ""
               ],
               [
-                "7",
-                "8"
+                "",
+                ""
               ]
             ],
             [
               [
-                "9",
-                "1"
+                "",
+                ""
               ],
               [
-                "8",
-                "2"
+                "",
+                ""
               ],
               [
-                "9",
-                "1"
+                "",
+                ""
               ],
               [
-                "8",
-                "2"
+                "",
+                ""
               ]
             ],
             [
               [
-                "1",
-                "3"
+                "",
+                ""
               ],
               [
-                "1",
-                "3"
+                "",
+                ""
               ]
             ],
             [
               [
-                "1",
-                "3"
+                "",
+                ""
               ]
             ]
           ],
           [
             [
               [
-                "5",
-                "1"
+                "",
+                ""
               ],
               [
-                "1",
-                "2"
+                "",
+                ""
               ],
               [
-                "3",
-                "2"
+                "",
+                ""
               ],
               [
-                "6",
-                "9"
+                "",
+                ""
               ],
               [
-                "5",
-                "1"
+                "",
+                ""
               ],
               [
-                "1",
-                "2"
+                "",
+                ""
               ],
               [
-                "3",
-                "2"
+                "",
+                ""
               ],
               [
-                "6",
-                "9"
+                "",
+                ""
               ]
             ],
             [
               [
-                "8",
-                "2"
+                "",
+                ""
               ],
               [
-                "1",
-                "2"
+                "",
+                ""
               ],
               [
-                "6",
-                "2"
+                "",
+                ""
               ],
               [
-                "1",
-                "3"
+                "",
+                ""
               ],
               [
-                "8",
-                "2"
+                "",
+                ""
               ],
               [
-                "1",
-                "2"
+                "",
+                ""
               ],
               [
-                "6",
-                "2"
+                "",
+                ""
               ],
               [
-                "1",
-                "3"
+                "",
+                ""
               ]
             ],
             [
               [
-                "1",
-                "2"
+                "",
+                ""
               ],
               [
-                "3",
-                "1"
+                "",
+                ""
               ],
               [
-                "1",
-                "2"
+                "",
+                ""
               ],
               [
-                "3",
-                "1"
+                "",
+                ""
               ]
             ],
             [
               [
-                "3",
-                "0"
+                "",
+                ""
               ],
               [
-                "1",
-                "9"
+                "",
+                ""
               ],
               [
-                "3",
-                "0"
+                "",
+                ""
               ],
               [
-                "1",
-                "9"
+                "",
+                ""
               ]
             ],
             [
               [
-                "3",
-                "2"
+                "",
+                ""
               ],
               [
-                "3",
-                "2"
+                "",
+                ""
               ]
             ],
             [
               [
-                "4",
-                "2"
+                "",
+                ""
               ],
               [
-                "4",
-                "2"
+                "",
+                ""
               ]
             ],
             [
               [
-                "1",
-                "3"
+                "",
+                ""
               ]
             ],
             [
               [
-                "1",
-                "3"
+                "",
+                ""
               ]
             ]
           ],
           [
             [
               [
-                "3",
-                "8"
+                "",
+                ""
               ],
               [
-                "1",
-                "2"
-              ]
-            ],
-            [
-              [
-                "2",
-                "1"
+                "",
+                ""
               ]
             ]
           ]
@@ -457,158 +3283,152 @@
           [
             [
               [
-                3,
-                5
+                "0",
+                "0"
               ],
               [
-                2,
-                4
+                "0",
+                "0"
               ],
               [
-                6,
-                3
+                "0",
+                "0"
               ],
               [
-                2,
-                3
+                "0",
+                "0"
               ],
               [
-                1,
-                5
+                "0",
+                "0"
               ],
               [
-                5,
-                3
+                "0",
+                "0"
               ],
               [
-                7,
-                2
+                "0",
+                "0"
               ],
               [
-                1,
-                2
+                "0",
+                "0"
               ]
             ],
             [
               [
-                1,
-                2
+                "1",
+                "2"
               ],
               [
-                3,
-                4
+                "3",
+                "4"
               ],
               [
-                5,
-                6
+                "5",
+                "6"
               ],
               [
-                7,
-                8
+                "7",
+                "8"
               ]
             ],
             [
               [
-                9,
-                1
+                "9",
+                "1"
               ],
               [
-                8,
-                2
+                "8",
+                "2"
               ]
             ],
             [
               [
-                1,
-                3
+                "1",
+                "3"
               ]
             ]
           ],
           [
             [
               [
-                5,
-                1
+                "5",
+                "1"
               ],
               [
-                1,
-                2
+                "1",
+                "2"
               ],
               [
-                3,
-                2
+                "3",
+                "2"
               ],
               [
-                6,
-                9
+                "6",
+                "9"
               ]
             ],
             [
               [
-                8,
-                2
+                "8",
+                "2"
               ],
               [
-                1,
-                2
+                "1",
+                "2"
               ],
               [
-                6,
-                2
+                "6",
+                "2"
               ],
               [
-                1,
-                3
+                "1",
+                "3"
               ]
             ],
             [
               [
-                1,
-                2
+                "1",
+                "2"
               ],
               [
-                3,
-                1
+                "3",
+                "1"
               ]
             ],
             [
               [
-                3,
-                0
+                "3",
+                "0"
               ],
               [
-                1,
-                9
+                "1",
+                "9"
               ]
             ],
             [
               [
-                3,
-                2
+                "3",
+                "2"
               ]
             ],
             [
               [
-                4,
-                2
+                "4",
+                "2"
               ]
             ]
           ],
           [
             [
               [
-                3,
-                8
+                "3",
+                "8"
               ],
               [
-                1,
-                2
-              ]
-            ],
-            [
-              [
-                2,
-                1
+                "1",
+                "2"
               ]
             ]
           ]
@@ -658,158 +3478,152 @@
           [
             [
               [
-                3,
-                5
+                "0",
+                "0"
               ],
               [
-                2,
-                4
+                "0",
+                "0"
               ],
               [
-                6,
-                3
+                "0",
+                "0"
               ],
               [
-                2,
-                3
+                "0",
+                "0"
               ],
               [
-                1,
-                5
+                "0",
+                "0"
               ],
               [
-                5,
-                3
+                "0",
+                "0"
               ],
               [
-                7,
-                2
+                "0",
+                "0"
               ],
               [
-                1,
-                2
+                "0",
+                "0"
               ]
             ],
             [
               [
-                1,
-                2
+                "1",
+                "2"
               ],
               [
-                3,
-                4
+                "3",
+                "4"
               ],
               [
-                5,
-                6
+                "5",
+                "6"
               ],
               [
-                7,
-                8
+                "7",
+                "8"
               ]
             ],
             [
               [
-                9,
-                1
+                "9",
+                "1"
               ],
               [
-                8,
-                2
+                "8",
+                "2"
               ]
             ],
             [
               [
-                1,
-                3
+                "1",
+                "3"
               ]
             ]
           ],
           [
             [
               [
-                5,
-                1
+                "5",
+                "1"
               ],
               [
-                1,
-                2
+                "1",
+                "2"
               ],
               [
-                3,
-                2
+                "3",
+                "2"
               ],
               [
-                6,
-                9
+                "6",
+                "9"
               ]
             ],
             [
               [
-                8,
-                2
+                "8",
+                "2"
               ],
               [
-                1,
-                2
+                "1",
+                "2"
               ],
               [
-                6,
-                2
+                "6",
+                "2"
               ],
               [
-                1,
-                3
+                "1",
+                "3"
               ]
             ],
             [
               [
-                1,
-                2
+                "1",
+                "2"
               ],
               [
-                3,
-                1
+                "3",
+                "1"
               ]
             ],
             [
               [
-                3,
-                0
+                "3",
+                "0"
               ],
               [
-                1,
-                9
+                "1",
+                "9"
               ]
             ],
             [
               [
-                3,
-                2
+                "3",
+                "2"
               ]
             ],
             [
               [
-                4,
-                2
+                "4",
+                "2"
               ]
             ]
           ],
           [
             [
               [
-                3,
-                8
+                "3",
+                "8"
               ],
               [
-                1,
-                2
-              ]
-            ],
-            [
-              [
-                2,
-                1
+                "1",
+                "2"
               ]
             ]
           ]
@@ -819,41 +3633,27 @@
   ],
   "tournaments": [
     {
-      "name": "2v2 CS:GO",
-      "game": "CS:GO",
+      "name": "azer",
+      "game": "azer",
       "organizer": "extaze",
-      "position": "Table 12",
+      "position": "azer",
       "players": 4,
-      "registered": 4,
+      "registered": 1,
       "id": 0,
       "tree": [
         [
           {
             "team1": "extaze",
-            "team2": "k",
-            "score1": 6,
+            "team2": null,
+            "score1": 0,
             "score2": 0
-          },
-          {
-            "team1": "x",
-            "team2": "il",
-            "score1": 12,
-            "score2": 5
-          }
-        ],
-        [
-          {
-            "score1": 1,
-            "score2": 0,
-            "team1": "extaze",
-            "team2": "x"
           }
         ]
       ]
     }
   ],
   "scores": {
-    "blue": 356,
-    "red": 125
+    "blue": "060",
+    "red": 0
   }
 }

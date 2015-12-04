@@ -48,7 +48,7 @@ module.exports = function (server) {
                     }
 
                     users[0].lastLogin = new Date()
-                    server.db.save()
+                    server.db.saveSync()
 
                     request.session.set('auth', true)
                     request.session.set('login', users[0].login)

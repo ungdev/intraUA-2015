@@ -123,7 +123,7 @@ module.exports = function (server) {
                 tournament.tree.push(newRound)
             })
 
-            server.db.save()
+            server.db.saveSync()
 
             return reply(true)
         }
@@ -185,9 +185,11 @@ module.exports = function (server) {
         path   : '/createTournament',
         handler: function (request, reply) {
             if (!request.session.get('auth')) {
+		console.log('not authed');
                 return reply.redirect('/')
             }
 
+	    console.log('loading');
             var tournaments = server.reloadDB().db('tournaments').toJSON()
 
             console.log(request.payload)
@@ -213,8 +215,8 @@ module.exports = function (server) {
             })
 
             var id = tournaments.length - 1
-
-            server.db.save()
+            console.log(server.db);
+            server.db.saveSync()
             reply.redirect('tournaments/' + id)
         }
     })
@@ -259,7 +261,7 @@ module.exports = function (server) {
                 })
             }
 
-            server.db.save()
+            server.db.saveSync()
 
             reply(id)
         }
