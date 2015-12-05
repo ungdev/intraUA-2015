@@ -14,6 +14,31 @@ server.config   = require('./config.json')
 server.render   = require('./mustache')
 server.reloadDB = function () {
     server.db = low('db.json')
+
+    server.db.object.spotlights = server.db.object.spotlights.map(function (s) {
+        var tree = s.tree;
+
+        if (typeof s.tree === 'object') {
+            return s;
+        }
+
+        var actual = s.tree;
+        var isJSON = false;
+        do {
+            console.log('decode once', actual);
+            actual = decodeURIComponent(s.tree);
+            try {
+                actual = JSON.parse(actual);
+                isJSON = true;
+            } catch (e) {
+            }
+        } while (!isJSON);
+
+        s.tree = actual;
+
+        return s;
+    });
+
     return server
 };
 
