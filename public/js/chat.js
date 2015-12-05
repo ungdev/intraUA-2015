@@ -1,6 +1,6 @@
 'use strict'
 
-var ircPath = 'http://utt.fr/';
+var ircPath = 'http://intranet.ua:9090/';
 
 var $iframe = $('<iframe>')
     .attr('frameborder', 0)
