@@ -41,3 +41,7 @@
 .lose.highlightWinner .label, .win.highlightWinner .label {
     color: #fff;
 }
+
+.tree input {
+    color: #000;
+}
