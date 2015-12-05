@@ -45,3 +45,7 @@
 .tree input {
     color: #000;
 }
+
+div.jQBracket .team div.label {
+    color: #888;
+}
