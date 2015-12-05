@@ -2,13 +2,6 @@
   "events": [
   ],
   "challenges": [
-    {
-      "name": "oekao",
-      "desc": "aoze",
-      "points": "60",
-      "token": "0wk",
-      "validated": false
-    }
   ],
   "users": [
     {
